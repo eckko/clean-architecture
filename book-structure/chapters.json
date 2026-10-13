@@ -1,0 +1,343 @@
+{
+ "id": "clean-architecture",
+ "book": "Clean Architecture",
+ "summary": "Software architecture is about drawing boundaries and pointing source dependencies at policy, so that business rules stay independent of frameworks, databases and delivery mechanisms, and the system stays cheap to change.",
+ "labels": {
+  "unit": "Chapter",
+  "units": "chapters",
+  "topic": "Topic"
+ },
+ "grouping": "see unit titles",
+ "excluded": [
+  "cover, copyright, foreword, preface, acknowledgments, index"
+ ],
+ "chapters": [
+  {
+   "unit": "Part I",
+   "unitTitle": "Introduction: design and architecture",
+   "unitSummary": "Design and architecture are one thing: the structure that keeps a system cheap to change, and it is worth fighting for.",
+   "pages": 12.2,
+   "weight": 1.0,
+   "sections": [
+    "The Goal?",
+    "Case Study",
+    "Behavior",
+    "Architecture",
+    "The Greater Value",
+    "Eisenhower’s Matrix",
+    "Fight for the Architecture"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "intro",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/intro.txt"
+   ],
+   "kind": "expository",
+   "kindConfidence": "medium",
+   "kindReason": "conceptual argument with a short case study, little code",
+   "modifiers": []
+  },
+  {
+   "unit": "Part II",
+   "unitTitle": "Programming paradigms",
+   "unitSummary": "Each paradigm removes a power from the programmer: structured programming removes goto, OO removes indirect transfer of control, functional removes assignment.",
+   "pages": 26.6,
+   "weight": 1.0,
+   "sections": [
+    "Structured Programming",
+    "Object-Oriented Programming",
+    "Functional Programming",
+    "Food for Thought",
+    "Proof",
+    "A Harmful Proclamation",
+    "Functional Decomposition",
+    "No Formal Proofs",
+    "Science to the Rescue",
+    "Tests",
+    "Encapsulation?",
+    "Inheritance?",
+    "Polymorphism?",
+    "Squares of Integers",
+    "Immutability and Architecture",
+    "Segregation of Mutability",
+    "Event Sourcing"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "paradigms",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/paradigms.txt"
+   ],
+   "kind": "architecture",
+   "kindConfidence": "medium",
+   "kindReason": "argues about structure and constraints; few listings",
+   "modifiers": [
+    "has-code"
+   ]
+  },
+  {
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "unitSummary": "The SOLID principles say how to arrange functions and data into classes and how to connect them, so that modules tolerate change and are easy to understand.",
+   "pages": 18.4,
+   "weight": 1.0,
+   "sections": [
+    "Symptom 1: Accidental Duplication",
+    "Symptom 2: Merges",
+    "Solutions",
+    "A Thought Experiment",
+    "Directional Control",
+    "Information Hiding",
+    "Guiding the Use of Inheritance",
+    "The Square/Rectangle Problem",
+    "LSP and Architecture",
+    "Example LSP Violation",
+    "ISP and Language",
+    "ISP and Architecture",
+    "Stable Abstractions",
+    "Factories",
+    "Concrete Components"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "solid",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/solid.txt"
+   ],
+   "kind": "architecture",
+   "kindConfidence": "high",
+   "kindReason": "named design principles with consequences and code",
+   "modifiers": [
+    "has-code"
+   ]
+  },
+  {
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "unitSummary": "Component cohesion principles say which classes to group; coupling principles say how components may depend on each other, with metrics for stability and abstraction.",
+   "pages": 31.3,
+   "weight": 1.2,
+   "sections": [
+    "A Brief History of Components",
+    "Relocatability",
+    "Linkers",
+    "The Reuse/Release Equivalence Principle",
+    "The Common Closure Principle",
+    "The Common Reuse Principle",
+    "The Tension Diagram for Component Cohesion",
+    "The Acyclic Dependencies Principle",
+    "Top-Down Design",
+    "The Stable Dependencies Principle",
+    "The Stable Abstractions Principle"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "components",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/components.txt"
+   ],
+   "kind": "architecture",
+   "kindConfidence": "high",
+   "kindReason": "principles with trade-offs, plus stability metrics",
+   "modifiers": [
+    "has-formulas"
+   ]
+  },
+  {
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "unitSummary": "Good architecture keeps options open, separates by use case, layer and operation, and draws boundary lines by what changes for different reasons.",
+   "pages": 43.1,
+   "weight": 1.0,
+   "sections": [
+    "Development",
+    "Deployment",
+    "Operation",
+    "Maintenance",
+    "Keeping Options Open",
+    "Device Independence",
+    "Junk Mail",
+    "Physical Addressing",
+    "Use Cases",
+    "Leaving Options Open",
+    "Decoupling Layers",
+    "Decoupling Use Cases",
+    "Decoupling Mode",
+    "Independent Develop-ability",
+    "Independent Deployability",
+    "Duplication",
+    "Decoupling Modes (Again)",
+    "A Couple of Sad Stories",
+    "FitNesse",
+    "Which Lines Do You Draw, and When Do You Draw Them?",
+    "What About Input and Output?",
+    "Plugin Architecture",
+    "The Plugin Argument",
+    "Boundary Crossing",
+    "The Dreaded Monolith",
+    "Deployment Components",
+    "Threads",
+    "Local Processes",
+    "Services",
+    "Level"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "arch1",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/arch1.txt"
+   ],
+   "kind": "architecture",
+   "kindConfidence": "high",
+   "kindReason": "architecture principles and boundary decisions",
+   "modifiers": []
+  },
+  {
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "unitSummary": "Business rules sit at the centre; dependencies point inward; humble objects and partial boundaries keep the edges thin.",
+   "pages": 28.5,
+   "weight": 1.0,
+   "sections": [
+    "Entities",
+    "Use Cases",
+    "Request and Response Models",
+    "The Theme of an Architecture",
+    "The Purpose of an Architecture",
+    "But What About the Web?",
+    "Frameworks Are Tools, Not Ways of Life",
+    "Testable Architectures",
+    "The Dependency Rule",
+    "A Typical Scenario",
+    "The Humble Object Pattern",
+    "Presenters and Views",
+    "Testing and Architecture",
+    "Database Gateways",
+    "Data Mappers",
+    "Service Listeners",
+    "Skip the Last Step",
+    "One-Dimensional Boundaries",
+    "Facades",
+    "Hunt the Wumpus",
+    "Clean Architecture?",
+    "Crossing the Streams",
+    "Splitting the Streams"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "arch2",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/arch2.txt"
+   ],
+   "kind": "architecture",
+   "kindConfidence": "high",
+   "kindReason": "patterns and structures with trade-offs",
+   "modifiers": []
+  },
+  {
+   "unit": "Part V-C",
+   "unitTitle": "Architecture: main, services and tests",
+   "unitSummary": "The Main component, services and the test boundary are details at the outer edge; embedded systems need the same boundaries.",
+   "pages": 27.7,
+   "weight": 1.0,
+   "sections": [
+    "The Ultimate Detail",
+    "Service Architecture?",
+    "Service Benefits?",
+    "The Kitty Problem",
+    "Objects to the Rescue",
+    "Component-Based Services",
+    "Cross-Cutting Concerns",
+    "Tests as System Components",
+    "Design for Testability",
+    "The Testing API",
+    "App-titude Test",
+    "The Target-Hardware Bottleneck"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "arch3",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/arch3.txt"
+   ],
+   "kind": "architecture",
+   "kindConfidence": "high",
+   "kindReason": "patterns at the system edge",
+   "modifiers": []
+  },
+  {
+   "unit": "Part VI",
+   "unitTitle": "Details and case study",
+   "unitSummary": "The database, the web and frameworks are details; a case study and a closing chapter show how architecture survives implementation.",
+   "pages": 32.2,
+   "weight": 1.0,
+   "sections": [
+    "Relational Databases",
+    "Why Are Database Systems So Prevalent?",
+    "What If There Were No Disk?",
+    "Details",
+    "But What about Performance?",
+    "Anecdote",
+    "The Endless Pendulum",
+    "The Upshot",
+    "Framework Authors",
+    "Asymmetric Marriage",
+    "The Risks",
+    "The Solution",
+    "I Now Pronounce You …",
+    "The Product",
+    "Use Case Analysis",
+    "Component Architecture",
+    "Dependency Management",
+    "Package by Layer",
+    "Package by Feature",
+    "Ports and Adapters",
+    "Package by Component",
+    "The Devil Is in the Implementation Details",
+    "Organization versus Encapsulation",
+    "Other Decoupling Modes",
+    "Conclusion: The Missing Advice"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "details",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/details.txt"
+   ],
+   "kind": "architecture",
+   "kindConfidence": "medium",
+   "kindReason": "argument plus case study; mix of advice and structure",
+   "modifiers": []
+  },
+  {
+   "unit": "Whole book",
+   "unitTitle": "Reading the book as a whole",
+   "unitSummary": "How the ideas of Clean Architecture fit together, which to apply first, and what a careful reading leaves you able to do.",
+   "pages": 8.0,
+   "weight": 1.0,
+   "sections": [
+    "Putting it together"
+   ],
+   "htrab": [
+    "analytical/determining-an-authors-message"
+   ],
+   "idPrefix": "whole",
+   "sourceParts": [
+    "/home/claude/work-clean-architecture/extract/units/whole.txt"
+   ],
+   "kind": "expository",
+   "kindConfidence": "high",
+   "kindReason": "synthesis unit, always expository",
+   "modifiers": []
+  }
+ ]
+}
