@@ -462,3 +462,14 @@ it after any change to the code.
 
 More detail for contributors and AI agents is in
 [`ai-context/`](ai-context/).
+
+## Pictures (version 2)
+
+`media/` holds the book's pictures, one encrypted file each (`media/fig/7-4.enc`, `media/art/ch-05.enc`, `media/book/cover.enc`). They are currently encrypted with a **public placeholder key** (SHA-256 of `key-placeholder`), so they are not secret yet. To lock them with your real key:
+
+    python3 -m pip install cryptography
+    openssl rand -base64 32 > ../keys/clean-architecture.key && chmod 600 ../keys/clean-architecture.key
+    python3 tools/reencrypt_media.py placeholder ../keys/clean-architecture.key
+    git add media && git commit -m "Encrypt media with the real key"
+
+Then put the same key text in Firestore at `users/<your uid>/mediaKeys/clean-architecture` (field `key`). Keep the key file out of the repo.

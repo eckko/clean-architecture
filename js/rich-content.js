@@ -7,6 +7,8 @@
  * questions.json fields (all optional, older banks do not use them):
  *   concept.genre            short label, for example "Algorithms"
  *   card.blocks              [{ label, text, code, lang, media }]
+ *   card.media               [{ id, alt, role, type }] shown under the card text
+ *   cover                    one media entry (role "cover"), shown by the title
  *   question.code, .lang     a code listing under the question
  *   question.media, block.media
  *                            [{ id, alt, role, type }] see media-store.js
@@ -68,15 +70,37 @@
     figure.setAttribute("data-role", entry.role || "figure");
     figure.appendChild(createElement("figcaption", "media-alt",
       entry.alt || ""));
+    openFigure(figure, entry);
+    document.addEventListener("recallquiz:media-key-changed",
+      function retry() {
+        if (!figure.isConnected) {
+          return;
+        }
+        if (!figure.querySelector(".media-item")) {
+          figure.classList.remove("is-missing");
+          figure.classList.add("is-loading");
+          openFigure(figure, entry);
+        }
+      });
+    return figure;
+  }
+
+  /**
+   * Load a figure's file; show it, or leave the words if there is none.
+   * @param {HTMLElement} figure
+   * @param {object} entry
+   */
+  function openFigure(figure, entry) {
     quiz.media.load(entry).then(function show(url) {
       if (url) {
-        fillFigure(figure, entry, url);
+        if (!figure.querySelector(".media-item")) {
+          fillFigure(figure, entry, url);
+        }
       } else {
         figure.classList.remove("is-loading");
         figure.classList.add("is-missing");
       }
     });
-    return figure;
   }
 
   /**
@@ -93,6 +117,35 @@
     });
     return wrap;
   }
+
+  /**
+   * Show the book's cover next to its title, when the bank has one and it
+   * can be opened. With no key or no file the cover stays hidden.
+   * @param {object|undefined} entry  bank.cover
+   */
+  function showCover(entry) {
+    const image = document.getElementById("book-cover");
+    if (!image) {
+      return;
+    }
+    image.classList.add("hidden");
+    if (!entry) {
+      return;
+    }
+    quiz.media.load(entry).then(function show(url) {
+      if (url) {
+        image.src = url;
+        image.alt = entry.alt || "";
+        image.classList.remove("hidden");
+      }
+    });
+  }
+
+  document.addEventListener("recallquiz:media-key-changed", function again() {
+    if (quiz.book && quiz.book.data) {
+      showCover(quiz.book.data.cover);
+    }
+  });
 
   /**
    * Add a thing's code and pictures to an element.
@@ -136,6 +189,6 @@
     return genre ? createElement("span", "idea-genre", genre) : null;
   }
 
-  quiz.rich = { createCode, createMedia, appendExtras, createBlocks,
+  quiz.rich = { createCode, createMedia, appendExtras, createBlocks, showCover,
                 createGenreChip };
 })(window.RecallQuiz = window.RecallQuiz || {});

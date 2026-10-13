@@ -35,7 +35,15 @@
     ],
     "example": "A team lead says, 'Architecture is the boxes on the whiteboard; the method names are just design.' The author would answer that the boxes depend on the method-level choices and the choices depend on the boxes, so both are one structure.",
     "rule": "Treat high-level structure and low-level detail as one continuous design, not as two separate jobs.",
-    "limits": "Our reading: the claim is about where the decisions sit, not about who makes them: people may still split work by level for convenience, and software architects have a special duty later in the unit."
+    "limits": "Our reading: the claim is about where the decisions sit, not about who makes them: people may still split work by level for convenience, and software architects have a special duty later in the unit.",
+    "media": [
+     {
+      "id": "art/ch-01",
+      "alt": "Pen drawing of a bearded, wide-eyed man with a thought bubble holding a question mark, standing in front of a tall arch and trees.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    },
    "unit": "Part I",
    "unitTitle": "Introduction: design and architecture",
@@ -83,7 +91,39 @@
     ],
     "example": "A product team doubles its headcount in a year, but the number of features shipped per quarter stays the same and each estimate gets longer. That matches the signature.",
     "rule": "Rising headcount and cost with flat output is the signature of a mess, not of success.",
-    "limits": "Our reading: the data show a pattern, not a cause: the author attributes it to haste and ignoring structure. Lines of code are a crude measure of output, so the pattern is a warning, not proof."
+    "limits": "Our reading: the data show a pattern, not a cause: the author attributes it to haste and ignoring structure. Lines of code are a crude measure of output, so the pattern is a warning, not proof.",
+    "media": [
+     {
+      "id": "fig/1-1",
+      "alt": "Bar chart of engineering staff for releases 1 to 8, vertical axis 0 to 1400. Bars start near 20 and roughly double each release: about 40, 80, 160, 310, 600, 850, and about 1200 in release 8.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/1-2",
+      "alt": "Bar chart of product size in thousands of lines of code (KLOC) for releases 1 to 8, axis 0 to 8000. Bars rise from about 3000 in release 1 to 5000 in release 2, then each later bar grows by less: about 5800, 6400, 6800, 7000, 7100 and 7150 in release 8.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/1-3",
+      "alt": "Bar chart of cost per line of code (Cost/LOC) for major releases 1 to 8, axis 0 to 400. Bars start near 12 in release 1 and rise every release: about 20, 47, 78, 123, 175, 267, then about 380 in release 8.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/1-4",
+      "alt": "Line chart titled Productivity/Release, releases 1 to 8, vertical axis 0 to 100 percent. Productivity starts at 100% in release 1, falls to about 67% in release 2 and about 20% in release 3, then declines slowly to about 3% by release 8.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/1-5",
+      "alt": "Line chart of monthly development payroll by release, releases 1 to 8, axis from $0 to $20,000,000. The line starts at a few hundred thousand dollars, reaches about $5,000,000 in release 5, $10,000,000 in release 6, $14,000,000 in release 7 and $20,000,000 in release 8.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    },
    "unit": "Part I",
    "unitTitle": "Introduction: design and architecture",
@@ -131,7 +171,15 @@
     ],
     "example": "A team plans to throw away its tangled billing service and rewrite it in three months, with the same deadline habits. The author predicts the new service will end up as tangled as the old one.",
     "rule": "Cleanliness makes work faster even in the short run, so a rewrite without changed habits repeats the mess.",
-    "limits": "Our reading: the experiment is small: one programmer, a simple task, six days, and a learning curve in the data. It supports the claim for that case; the author generalizes beyond it."
+    "limits": "Our reading: the experiment is small: one programmer, a simple task, six days, and a learning curve in the data. It supports the claim for that case; the author generalizes beyond it.",
+    "media": [
+     {
+      "id": "fig/1-6",
+      "alt": "Grouped bar chart titled Roman Numerals Kata, time to completion in minutes (axis 22 to 30) for iterations 1, 2 and 3. Each iteration has a green With TDD bar and a blue No TDD bar. Green bars are about 26.3, 25.2 and 24.9; blue bars about 29.6, 28.4 and 27.9.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    },
    "unit": "Part I",
    "unitTitle": "Introduction: design and architecture",
@@ -155,7 +203,15 @@
     ],
     "example": "A developer's week is spent on a new checkout feature and three bug fixes. All of it is behavior work. The author would ask who, in that week, looked after the second value.",
     "rule": "Behavior, meaning meeting requirements and fixing bugs, is only one of the two values developers must keep high.",
-    "limits": "The point is not that behavior is unimportant. Programmers must deliver it, and the author's complaint is that focusing on it to the exclusion of structure leaves the system eventually valueless."
+    "limits": "The point is not that behavior is unimportant. Programmers must deliver it, and the author's complaint is that focusing on it to the exclusion of structure leaves the system eventually valueless.",
+    "media": [
+     {
+      "id": "art/ch-02",
+      "alt": "Pen drawing of a dog standing in a shop aisle among shelves of boxes and bottles marked with dollar signs, with price tags tied to its tail.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    },
    "unit": "Part I",
    "unitTitle": "Introduction: design and architecture",
@@ -251,7 +307,15 @@
     ],
     "example": "A sales demo next week makes a flashy feature urgent, and it takes the whole sprint. The work that would keep later features cheap is important but has no deadline, so it waits.",
     "rule": "Do not let features that are urgent but not important push aside the architecture that is important.",
-    "limits": "The author himself says some features are both urgent and important. The matrix asks you to separate those from merely urgent ones; it does not say behavior can be ignored."
+    "limits": "The author himself says some features are both urgent and important. The matrix asks you to separate those from merely urgent ones; it does not say behavior can be ignored.",
+    "media": [
+     {
+      "id": "fig/2-1",
+      "alt": "Two-by-two grid of labelled cells: top left Important Urgent, top right Important Not Urgent, bottom left Unimportant Urgent, bottom right Unimportant Not Urgent. A portrait photograph of a man in a suit sits to the right of the grid.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    },
    "unit": "Part I",
    "unitTitle": "Introduction: design and architecture",
@@ -336,7 +400,15 @@
      }
     ],
     "rule": "Structured programming replaces unrestrained jumps with if/then/else and do/while/until, which puts discipline on direct transfer of control.",
-    "limits": "Our reading: it restricts jumps only; it does not make a design good in other ways."
+    "limits": "Our reading: it restricts jumps only; it does not make a design good in other ways.",
+    "media": [
+     {
+      "id": "art/ch-03",
+      "alt": "Pen drawing of a wide-eyed child peeking over the edge of a table, with two coins lying in the lower corner of the picture.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -498,7 +570,15 @@
      }
     ],
     "rule": "Proof needs divide and conquer, and some uses of goto make a module impossible to decompose.",
-    "limits": "Not every goto blocked decomposition; the book says some uses did not, and those matched the simple selection and loop constructs."
+    "limits": "Not every goto blocked decomposition; the book says some uses did not, and those matched the simple selection and loop constructs.",
+    "media": [
+     {
+      "id": "art/ch-04",
+      "alt": "Pen drawing of a tall pile of old computers, monitors and equipment, with two people standing beside it, one holding a monitor and one holding papers.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -797,7 +877,15 @@
      }
     ],
     "rule": "Perfect encapsulation existed in C through headers that hide a struct's members, so encapsulation does not define OO.",
-    "limits": "Our reading: the point is about hiding, not about OO being bad; and C only hides what is kept out of the header."
+    "limits": "Our reading: the point is about hiding, not about OO being bad; and C only hides what is kept out of the header.",
+    "media": [
+     {
+      "id": "art/ch-05",
+      "alt": "Pen drawing of a sweating man juggling a toy tractor, an axe, a laptop, a toy airplane and a sign that reads Checks.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1003,7 +1091,21 @@
      }
     ],
     "rule": "Inserting an interface makes the callee depend on the caller's abstraction, so the source dependency points opposite to the flow of control.",
-    "limits": "Our reading: inversion changes source dependencies only; the flow of control at run time is unchanged."
+    "limits": "Our reading: inversion changes source dependencies only; the flow of control at run time is unchanged.",
+    "media": [
+     {
+      "id": "fig/5-1",
+      "alt": "Tree diagram. Main at the top, three high-level boxes HL1 to HL3 below it, six mid-level boxes ML1 to ML6, then twelve low-level boxes LL1 to LL12, two children per parent. Solid red arrows (source code dependency) and dashed green arrows (flow of control) both run from each parent down to its children.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/5-2",
+      "alt": "UML-style diagram. Box HL1 has a solid red arrow to a box labelled interface I, which lists +F(). Box ML1, also listing +F(), has a red arrow with a hollow triangle head pointing up to I. A dashed green arrow runs from HL1 to ML1.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1035,7 +1137,15 @@
      }
     ],
     "rule": "Point the source dependencies of the UI and database at the business rules, so the rules stay independent and the details become plugins.",
-    "limits": "Our reading: this works for components whose dependencies really have been inverted; one remaining direct dependency on a detail breaks the independence."
+    "limits": "Our reading: this works for components whose dependencies really have been inverted; one remaining direct dependency on a detail breaks the independence.",
+    "media": [
+     {
+      "id": "fig/5-3",
+      "alt": "Three boxes in a row: UI on the left, Business Rules in the middle, Database on the right. Solid red arrows run from UI to Business Rules and from Database to Business Rules. Dashed green curved arrows run from Business Rules to UI and from Business Rules to Database.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1075,7 +1185,15 @@
      }
     ],
     "rule": "A functional program computes with variables that are initialised but never modified, where an imperative loop changes them.",
-    "limits": "Our reading: the point is about mutable variables, not syntax; a loop is not wrong, it is a user of changing state."
+    "limits": "Our reading: the point is about mutable variables, not syntax; a loop is not wrong, it is a user of changing state.",
+    "media": [
+     {
+      "id": "art/ch-06",
+      "alt": "Pen drawing of a grinning man in a suit jacket and heart-patterned shorts running while holding up a book marked SICP, as three people with folded arms watch.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1141,7 +1259,15 @@
      }
     ],
     "rule": "Split the system into immutable components and a small, protected mutable part, and keep as much code as possible in the immutable side.",
-    "limits": "Our reading: segregation shrinks the risk but does not remove it from the mutable part, which still needs protection."
+    "limits": "Our reading: segregation shrinks the risk but does not remove it from the mutable part, which still needs protection.",
+    "media": [
+     {
+      "id": "fig/6-1",
+      "alt": "Five boxes in a row labelled Immutable Components, each with an arrow pointing down to one box labelled Mutable Component. A double-headed arrow connects the Mutable Component to a box below it labelled Transactional Memory.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1210,7 +1336,27 @@
     ],
     "paragraphs": [],
     "rule": "Make each module answer to a single actor, the group that asks for its changes.",
-    "limits": "The SRP is not the rule that a function does one thing; that is a separate habit for small functions. One actor may need many methods in one module without breaking the principle."
+    "limits": "The SRP is not the rule that a function does one thing; that is a separate habit for small functions. One actor may need many methods in one module without breaking the principle.",
+    "media": [
+     {
+      "id": "fig/7-1",
+      "alt": "Class diagram with one box named Employee listing three public methods: calculatePay, reportHours and save. Three stick figures labelled CFO, COO and CTO stand to its left, and each has a dashed arrow pointing at the Employee box.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/part-3",
+      "alt": "Five cheerleaders stand in a row, each holding up a large card above her head. The five cards spell S, O, L, I, D.",
+      "role": "illustration",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-07",
+      "alt": "A tall adult wags a finger at a small boy who stands with his head bowed on a lawn. A push lawn mower waits on the grass behind them.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1253,7 +1399,15 @@
     ],
     "paragraphs": [],
     "rule": "Keep code that different actors depend on apart, so that a change for one cannot reach the other.",
-    "limits": "Our reading: sharing is not wrong in itself. A function used by methods that answer to the same actor, or to actors who always want the same change, can be shared without this risk."
+    "limits": "Our reading: sharing is not wrong in itself. A function used by methods that answer to the same actor, or to actors who always want the same change, can be shared without this risk.",
+    "media": [
+     {
+      "id": "fig/7-2",
+      "alt": "Three boxes. Two sit side by side on top, calculatePay on the left and reportHours on the right. A third box, regularHours, sits below between them. A solid arrow runs from calculatePay down to regularHours, and another from reportHours down to regularHours.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1334,7 +1488,27 @@
     ],
     "paragraphs": [],
     "rule": "Separate data from functions, give each actor a class of its own and let a thin facade hide the extra classes.",
-    "limits": "Our reading: a class per actor does not mean a class per function. And the facade must stay thin, since it holds almost no logic of its own."
+    "limits": "Our reading: a class per actor does not mean a class per function. And the facade must stay thin, since it holds almost no logic of its own.",
+    "media": [
+     {
+      "id": "fig/7-3",
+      "alt": "Three class boxes stacked on the left: PayCalculator with calculatePay, HourReporter with reportHours, and EmployeeSaver with saveEmployee. Lines from all three join into one arrow pointing right at a single box labelled Employee Data. No arrows connect the three classes to each other.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/7-4",
+      "alt": "A box EmployeeFacade on the left lists calculatePay, reportHours and save. Arrows lead from it to three boxes in a column: PayCalculator (calculatePay), HourReporter (reportHours) and EmployeeSaver (saveEmployee). An arrow also reaches a box labelled Employee Data on the right.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/7-5",
+      "alt": "A box Employee on the left holds a private employeeData field and three public methods: calculatePay, reportHours and save. Two arrows lead from it to two boxes on the right: HourReporter with reportHours, and EmployeeSaver with saveEmployee. No separate class for calculating pay appears.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1372,7 +1546,21 @@
     "paragraphs": [],
     "rule": "Separate calculating the data from presenting it, so that a new presentation extends the system instead of modifying it.",
     "limits": "Zero changed code is an ideal. A new report still needs new code, and a requirement that changes the calculation itself must modify the part that calculates.",
-    "example": "The summary page scrolls and shows negative numbers in red. The printed version paginates and wraps negatives in parentheses. Both read the same figures from one calculation step."
+    "example": "The summary page scrolls and shows negative numbers in red. The printed version paginates and wraps negatives in parentheses. Both read the same figures from one calculation step.",
+    "media": [
+     {
+      "id": "fig/8-1",
+      "alt": "Hand-drawn data-flow sketch. A data store, Financial Data, has an arrow to an oval, Financial Analyzer. An arrow leads from the analyzer to a second data store, Financial Report Data. From that store two arrows lead to two ovals: Web Reporter and Print Reporter.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-08",
+      "alt": "A boy with a smug, eyes-closed face holds an upside-down box of Toasted Oats and opens its bottom flap, so that cereal rings spill out below.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1405,7 +1593,15 @@
     ],
     "paragraphs": [],
     "rule": "Point source code dependencies from the component that changes more toward the component you want to protect.",
-    "limits": "Protection is relative. A component can be peripheral to one component and central to another, as the Controller is peripheral to the Interactor but central to the Presenters."
+    "limits": "Protection is relative. A component can be peripheral to one component and central to another, as the Controller is peripheral to the Interactor but central to the Presenters.",
+    "media": [
+     {
+      "id": "fig/8-3",
+      "alt": "Component diagram of six boxes. Web View points up to Screen Presenter, and PDF View points up to Print Presenter. Both presenters point up to Financial Report Controller. The controller points right to Financial Report Interactor. Financial Database points up to the Interactor.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1444,7 +1640,15 @@
     ],
     "paragraphs": [],
     "rule": "Where a high-level policy needs a low-level service, give the policy an interface and let the low-level class implement it.",
-    "limits": "Our reading: each interface costs indirection. The authors add them to control the direction of dependencies between components, so an interface that guards no such boundary adds cost without that protection."
+    "limits": "Our reading: each interface costs indirection. The authors add them to control the direction of dependencies between components, so an interface that guards no such boundary adds cost without that protection.",
+    "media": [
+     {
+      "id": "fig/8-2",
+      "alt": "Class diagram grouped into double-lined components. Controller holds FinancialReportController and FinancialReportPresenter (interface). Interactor holds Request, Requester (interface), Response, FinancialReportGenerator, FinancialDataGateway (interface) and Financial entities. Database holds FinancialDataMapper and FinancialDatabase. Presenter and view components lie below. Open arrowheads mean uses; closed mean implements. FinancialDataMapper has a closed arrowhead to FinancialDataGateway. Each double line is crossed in one direction only.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1512,7 +1716,21 @@
     ],
     "paragraphs": [],
     "rule": "A type is a valid subtype only if programs written against the base type behave the same when it is substituted.",
-    "limits": "Our reading: subtypes may differ in how they work, as the two fee algorithms do. The test is whether users written against the base type can tell the difference."
+    "limits": "Our reading: subtypes may differ in how they work, as the two fee algorithms do. The test is whether users written against the base type can tell the difference.",
+    "media": [
+     {
+      "id": "fig/9-1",
+      "alt": "Billing box with an open arrow pointing right to License, an interface that lists calcFee(). Below License, closed inheritance arrows join two boxes to it: PersonalLicense, and BusinessLicense, which has a private field users.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-09",
+      "alt": "A smiling man with a thumbs-up and a shoulder bag walks past a row of houses with lawn signs. The signs read Liskov for President, pasted over other lettering.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1555,7 +1773,15 @@
     ],
     "paragraphs": [],
     "rule": "A real-world is-a relationship is not enough; a subtype must honour what users of the base type assume.",
-    "limits": "Our reading: the example fails because Rectangle promises independent width and height. A base type that promises less would not expose the violation, so the check is always against what users rely on."
+    "limits": "Our reading: the example fails because Rectangle promises independent width and height. A base type that promises less would not expose the violation, so the check is always against what users rely on.",
+    "media": [
+     {
+      "id": "fig/9-2",
+      "alt": "User box with an arrow pointing right to Rectangle, which lists setH and setW. Below Rectangle, a closed-head inheritance arrow points up from a box Square, which lists setSide.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1662,7 +1888,27 @@
     ],
     "paragraphs": [],
     "rule": "Split a broad class into interfaces for each kind of user, so that every user depends only on the operations it calls.",
-    "limits": "The forced recompiling exists where source declarations create dependencies, as in Java. In Ruby or Python no such declarations exist, though the authors say the concern does not end with the language."
+    "limits": "The forced recompiling exists where source declarations create dependencies, as in Java. In Ruby or Python no such declarations exist, though the authors say the concern does not end with the language.",
+    "media": [
+     {
+      "id": "fig/10-1",
+      "alt": "Three boxes in a row, User1, User2 and User3. Each has an arrow pointing down to one box below, OPS, which lists three operations: op1, op2 and op3.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/10-2",
+      "alt": "Users User1, User2 and User3 in a row, each with an arrow down to its own interface box: U1Ops with op1, U2Ops with op2 and U3Ops with op3. Beneath them, a box OPS listing op1, op2 and op3 has closed-head arrows pointing up to all three interfaces.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-10",
+      "alt": "Two angry men shout at each other with a uniformed police officer between them. Behind them, two cars have crashed together.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1695,7 +1941,15 @@
     ],
     "paragraphs": [],
     "rule": "Avoid depending on modules, frameworks or services that carry more than you need.",
-    "limits": "Our reading: no dependency is free of baggage. The harm grows with how much unused, changing material comes along, so a stable platform facility worries less than a volatile framework tied to a database."
+    "limits": "Our reading: no dependency is free of baggage. The harm grows with how much unused, changing material comes along, so a stable platform facility worries less than a volatile framework tied to a database.",
+    "media": [
+     {
+      "id": "fig/10-3",
+      "alt": "Three boxes in a row, left to right: System S, Framework F and Database D. One arrow runs from System S to Framework F, and another from Framework F to Database D.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1732,7 +1986,15 @@
     ],
     "paragraphs": [],
     "rule": "Depend on stable abstractions and avoid depending on volatile concrete classes.",
-    "limits": "Not every concrete dependency is a problem. A platform class like String changes so rarely that the authors tolerate it; the rule targets concrete elements that are under active development."
+    "limits": "Not every concrete dependency is a problem. A platform class like String changes so rarely that the authors tolerate it; the rule targets concrete elements that are under active development.",
+    "media": [
+     {
+      "id": "art/ch-11",
+      "alt": "Two trapeze artists swing together in a curve, one catching the other by the hands. A third trapeze artist hangs upside down from a bar at the right.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1808,7 +2070,15 @@
     ],
     "paragraphs": [],
     "rule": "Create volatile concrete objects through an abstract factory so that callers depend only on interfaces.",
-    "limits": "Creating a stable concrete object, such as a String, needs no factory. And a concrete class must be named somewhere, since the factory's implementation has to create it."
+    "limits": "Creating a stable concrete object, such as a String, needs no factory. And a concrete class must be named somewhere, since the factory's implementation has to create it.",
+    "media": [
+     {
+      "id": "fig/11-1",
+      "alt": "Application (top left) has arrows to Service, an interface at top right, and down to ServiceFactory, an interface with makeSvc. A dashed arrow runs from ServiceFactory to Service. A curved line separates these three from ConcreteImpl and ServiceFactoryImpl below. ConcreteImpl has a closed arrow up to Service; ServiceFactoryImpl has a closed arrow up to ServiceFactory and a creates arrow to ConcreteImpl.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1877,7 +2147,15 @@
      }
     ],
     "rule": "A component is the unit of deployment, and a well-designed one stays independently deployable however it is finally shipped.",
-    "limits": "Keeping the ability is not the same as using it: components may still be linked into one executable or one archive. The idea says what a component is, not which classes belong in one."
+    "limits": "Keeping the ability is not the same as using it: components may still be linked into one executable or one archive. The idea says what a component is, not which classes belong in one.",
+    "media": [
+     {
+      "id": "art/ch-12",
+      "alt": "A cartoon of a boy at a round table building a structure from toy discs and sticks. He holds one stick upright with a disc on top. Loose sticks and discs lie on the table.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -1941,7 +2219,21 @@
      }
     ],
     "rule": "Fixed addresses shorten compiles, but growth then forces fragmentation.",
-    "limits": "The scheme helps only while each part stays inside its allotted range. The book calls the resulting situation unsustainable and uses it to lead to relocatable binaries."
+    "limits": "The scheme helps only while each part stays inside its allotted range. The book calls the resulting situation unsustainable and uses it to lead to relocatable binaries.",
+    "media": [
+     {
+      "id": "fig/12-1",
+      "alt": "A grid of memory addresses, rows 0000-0777 down to 7000-7777 and columns x000-x177 to x600-x777. A green loop labelled Application covers the top rows, 0000 to about 1777. A red loop labelled Function Library sits below it, from about 2000 to 4777. The rows from 5000 down are empty.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/12-2",
+      "alt": "The same address grid as the early memory layout. A green loop labelled Application... covers the top rows from 0000 to 1777. The red Function Library loop stays in the middle, 2000 to 4777. A second green loop labelled ...Application covers rows 5000 to 6777, so the application is split in two around the library.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2101,7 +2393,15 @@
      }
     ],
     "rule": "The granule of reuse is the granule of release: a reusable component needs a release process and release numbers.",
-    "limits": "The principle says that a release process is needed, not what a release should contain. The book turns to later principles for that."
+    "limits": "The principle says that a release process is needed, not what a release should contain. The book turns to later principles for that.",
+    "media": [
+     {
+      "id": "art/ch-13",
+      "alt": "A cartoon of a woman opening a peanut butter jar on a counter, between two scowling children. Sliced bread, a knife and a jelly jar sit on the counter.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2326,7 +2626,15 @@
      }
     ],
     "rule": "The REP and CCP push components larger, the CRP pushes them smaller, and good cohesion balances all three.",
-    "limits": "The tension tells what each choice costs, not where to stand. The best position depends on the concerns of the team now."
+    "limits": "The tension tells what each choice costs, not where to stand. The best position depends on the concerns of the team now.",
+    "media": [
+     {
+      "id": "fig/13-1",
+      "alt": "A triangle with three circles. REP, group for reusers, is at top left. CCP, group for maintenance, is at top right. CRP, split to avoid unneeded releases, is at the bottom. The top edge REP-CCP reads Too many unneeded releases. The left edge REP-CRP reads Too many components change. The right edge CCP-CRP reads Hard to reuse. The centre asks where in this space a component falls.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2422,7 +2730,15 @@
      }
     ],
     "rule": "The weekly build postpones integration, and the postponed cost grows with the project until the schedule has to be lengthened again and again.",
-    "limits": "The morning after syndrome is not too big a problem in relatively small projects with just a few developers. The trouble comes as the project and the team grow."
+    "limits": "The morning after syndrome is not too big a problem in relatively small projects with just a few developers. The trouble comes as the project and the team grow.",
+    "media": [
+     {
+      "id": "art/ch-14",
+      "alt": "A cartoon of two smiling cars with faces, nose to nose. Inside each car a man and a girl sit close together, with the man hugging the girl.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2487,7 +2803,15 @@
      }
     ],
     "rule": "In a DAG a release affects only what depends on it, and the system is released from the bottom up.",
-    "limits": "The reading works only without cycles. With a cycle there probably is no correct build order."
+    "limits": "The reading works only without cycles. With a cycle there probably is no correct build order.",
+    "media": [
+     {
+      "id": "fig/14-1",
+      "alt": "A component diagram of boxes with arrows. Main points to Database, Presenters, View, Interactors, Controllers and Authorizer. View points to Presenters. Presenters, Controllers, Authorizer and Database each point to Interactors. Interactors points to Entities. Database also points to Entities. No arrow leads back to its start.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2523,7 +2847,15 @@
      }
     ],
     "rule": "A cycle fuses the components in it into one large component that must be released, tested and built together.",
-    "limits": "The effect is on releasing, testing and building. The book does not say a cycle changes what the code does."
+    "limits": "The effect is on releasing, testing and building. The book does not say a cycle changes what the code does.",
+    "media": [
+     {
+      "id": "fig/14-2",
+      "alt": "The same component diagram as the typical one: Main points to six components, View to Presenters, Presenters, Controllers, Authorizer and Database to Interactors, Interactors to Entities, Database to Entities. A new bold arrow now runs from Entities to Authorizer, so Entities, Authorizer and Interactors form a loop.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2561,7 +2893,21 @@
      }
     ],
     "rule": "Break a component cycle by inverting one dependency with an interface, or by moving what both need into a new component.",
-    "limits": "The second way adds components, so the structure grows. The book expects cycles to appear again, so the structure needs watching over time."
+    "limits": "The second way adds components, so the structure grows. The book expects cycles to appear again, so the structure needs watching over time.",
+    "media": [
+     {
+      "id": "fig/14-3",
+      "alt": "Two panels split by a thick line. Top: a component Entities holds a class User, with an arrow to a class Permissions inside a component Authorizer. Bottom: Entities holds User and an interface Permissions marked I; User points to that interface, and Permissions in Authorizer has an open-headed arrow to the interface.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/14-4",
+      "alt": "The component diagram with a new bold component named Permissions at the bottom right. Authorizer has a bold arrow down to Permissions, and Entities has a bold arrow to Permissions. Permissions has no outgoing arrow. The other arrows are as before, and no arrow runs between Entities and Authorizer.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2658,7 +3004,21 @@
      }
     ],
     "rule": "A component is stable when changing it takes a lot of work, and many incoming dependencies make that work large.",
-    "limits": "Size, complexity and clarity also make a component hard to change, but the book ignores them here. Stability does not mean that the component happens to change rarely."
+    "limits": "Size, complexity and clarity also make a component hard to change, but the book ignores them here. Stability does not mean that the component happens to change rarely.",
+    "media": [
+     {
+      "id": "fig/14-5",
+      "alt": "Three unnamed component boxes sit in a row at the top. From each a separate arrow points down to one box labelled X at the bottom. X has no arrows leaving it.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/14-6",
+      "alt": "One box labelled Y sits at the top. Three arrows leave it and point down, each to a separate unnamed component box in a row below. No arrow points at Y.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2690,7 +3050,15 @@
      }
     ],
     "rule": "I is fan-out divided by fan-in plus fan-out; 0 is maximally stable and 1 is maximally unstable.",
-    "limits": "The metric counts dependencies, which is only one of the factors in how hard a component is to change. It counts classes on the other side of the boundary, not components."
+    "limits": "The metric counts dependencies, which is only one of the factors in how hard a component is to change. It counts classes on the other side of the boundary, not components.",
+    "media": [
+     {
+      "id": "fig/14-7",
+      "alt": "Four components. Ca holds classes q and r. Cb holds class s. Cc holds classes t and u. Cd holds class v. Arrows run q to t, r to u, s to u, and u to v, the last one into Cd.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2722,7 +3090,21 @@
      }
     ],
     "rule": "Each component should have a larger I than every component it depends on.",
-    "limits": "A system of maximally stable components would be unchangeable, so the SDP asks for a mix of stable and unstable components, not for stability everywhere."
+    "limits": "A system of maximally stable components would be unchangeable, so the SDP asks for a mix of stable and unstable components, not for stability everywhere.",
+    "media": [
+     {
+      "id": "fig/14-8",
+      "alt": "Two components labelled instable, each marked I=1, sit side by side at the top. Each has an arrow pointing down to one component labelled stable, marked I=0, at the bottom.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/14-9",
+      "alt": "Two components labelled instable, each marked I=1, sit at the top with arrows pointing down to a component labelled Stable. A further arrow runs from Stable down to a component labelled Flexible at the bottom.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2761,7 +3143,21 @@
      }
     ],
     "rule": "To stop a stable component depending on a flexible one, put an interface in a separate stable component and make both depend on it.",
-    "limits": "In dynamically typed languages inversion needs no declared or inherited interface, so no abstract component is needed."
+    "limits": "In dynamically typed languages inversion needs no declared or inherited interface, so no abstract component is needed.",
+    "media": [
+     {
+      "id": "fig/14-10",
+      "alt": "Two components side by side. Stable holds a class u. Flexible holds a class c. An arrow runs from u in Stable to c in Flexible.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/14-11",
+      "alt": "Stable holds class u, with an arrow to an interface us, marked I, in a component UServer to its right. Below UServer, the component Flexible holds class c, with an open-headed arrow pointing up to the interface us. No arrow joins Stable and Flexible.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2890,7 +3286,21 @@
      }
     ],
     "rule": "Keep components on or near the line from (I = 1, A = 0) to (I = 0, A = 1): as abstract as they are stable.",
-    "limits": "The main sequence is a line of good positions, not a law. The book accepts that some components of a large system are neither perfectly abstract nor perfectly stable."
+    "limits": "The main sequence is a line of good positions, not a law. The book accepts that some components of a large system are neither perfectly abstract nor perfectly stable.",
+    "media": [
+     {
+      "id": "fig/14-12",
+      "alt": "An empty graph with axis A, abstractness, vertical and axis I, instability, horizontal. The point (0,1) is marked at the top left corner. The point (1,0) is marked at the bottom right corner.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/14-13",
+      "alt": "The A against I graph, from (0,0) at lower left to (1,1) at upper right, with a dashed square frame. A diagonal line labelled The Main Sequence joins (0,1) to (1,0). A quarter-circle near (0,0) is labelled Zone of Pain. A quarter-circle near (1,1) is labelled Zone of Uselessness.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -2986,7 +3396,21 @@
      }
     ],
     "rule": "Compute D = |A + I - 1| for each component and examine those whose D is not near zero or rises past a threshold.",
-    "limits": "D flags a component for a look; it does not say why. It also depends on A and I, which are themselves imperfect measures."
+    "limits": "D flags a component for a look; it does not say why. It also depends on A and I, which are themselves imperfect measures.",
+    "media": [
+     {
+      "id": "fig/14-14",
+      "alt": "A scatterplot with A vertical and I horizontal, both from 0 to 1. A solid diagonal line, the Main Sequence, runs from top left to bottom right. Dashed lines parallel to it are labelled Z=1 and Z=2 on each side. Most dots lie on or near the line; a few lie beyond the Z=1 lines.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/14-15",
+      "alt": "A graph titled Package: Payroll. The vertical axis is D from 0 to 0.2, with a dashed line at 0.1. The horizontal axis lists releases R1.0, R1.1, R1.2, R2.0 and R2.1. Dots rise from about 0.03 at R1.0 to about 0.075 at R2.0, and reach about 0.125 at R2.1, above the dashed line.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -3049,7 +3473,15 @@
     ],
     "paragraphs": [],
     "rule": "Architecture is the division, arrangement and communication of components, chosen to ease development, deployment, operation and maintenance.",
-    "limits": "The definition says what the shape is for, not which shape to pick. A shape that helps one of the four jobs can hurt another."
+    "limits": "The definition says what the shape is for, not which shape to pick. A shape that helps one of the four jobs can hurt another.",
+    "media": [
+     {
+      "id": "art/ch-15",
+      "alt": "A kneeling man holds up a long strip of paper covered in flowchart symbols while a dog watches. A stack of papers and a sheet with a curved cut-out lie below.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -3483,7 +3915,15 @@
     ],
     "paragraphs": [],
     "rule": "Make the system's use cases visible as prominent elements named for what they do at the top of its structure.",
-    "limits": "Visibility helps understanding; it does not make the use cases work. It also needs names that describe the function, not the technology."
+    "limits": "Visibility helps understanding; it does not make the use cases work. It also needs names that describe the function, not the technology.",
+    "media": [
+     {
+      "id": "art/ch-16",
+      "alt": "Two people wave goodbye, one looking tearful, as a small car piled with luggage drives away. A woman waves from its window; the plate reads UBOUND.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -3965,7 +4405,15 @@
     ],
     "paragraphs": [],
     "rule": "Do not build for a need that may never come; draw boundaries to defer such decisions, and adopt heavy structures only when the need is real.",
-    "limits": "The stories do not condemn tiers or services. They condemn adopting them before the need is known and enforcing them everywhere."
+    "limits": "The stories do not condemn tiers or services. They condemn adopting them before the need is known and enforcing them everywhere.",
+    "media": [
+     {
+      "id": "art/ch-17",
+      "alt": "A worried man in a knit cap looks up at a tall wooden fence. Over the top of the fence, another man in a bucket hat peers back.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4072,7 +4520,15 @@
     ],
     "paragraphs": [],
     "rule": "Draw a boundary between each part and the parts that do not matter to it, starting with the GUI, the database and the business rules.",
-    "limits": "The lines express what depends on what, not what is unimportant to the product. The database is vital to the product, though not to the rules."
+    "limits": "The lines express what depends on what, not what is unimportant to the product. The database is vital to the product, though not to the rules.",
+    "media": [
+     {
+      "id": "fig/17-1",
+      "alt": "Class diagram with four boxes. Business Rules at the top has a plain arrow down to Database Interface, which carries an I tag. Below it, Database Access has a hollow-triangle arrow pointing up to Database Interface. Database Access also has a plain arrow pointing right to a box named Database.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4111,7 +4567,21 @@
     ],
     "paragraphs": [],
     "rule": "Put the interface the rules need inside the rules' component, and let the database component depend on it.",
-    "limits": "The arrow shows source-code dependency, not the flow of data or of control. Data and calls still go from the rules to the database at runtime."
+    "limits": "The arrow shows source-code dependency, not the flow of data or of control. Data and calls still go from the rules to the database at runtime.",
+    "media": [
+     {
+      "id": "fig/17-2",
+      "alt": "Same four boxes as the database-behind-an-interface diagram: Business Rules, Database Interface (tagged I), Database Access and Database. A thick wavy line is drawn across the hollow-triangle arrow just below Database Interface, with Business Rules and Database Interface above it and Database Access and Database below it.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/17-3",
+      "alt": "Two component boxes, each with two small tabs on its left edge: Business Rules at top left and Database at lower right. A thick wavy line runs between them. A single arrow leaves Database, crosses the line, and ends with its arrowhead at Business Rules.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4144,7 +4614,15 @@
     ],
     "paragraphs": [],
     "rule": "Treat the input and output as a replaceable layer around the business rules, and let the GUI depend on the rules, not the reverse.",
-    "limits": "Irrelevant means the rules do not depend on the IO, not that the IO is unimportant. Users judge the product by its interface, and it needs real care."
+    "limits": "Irrelevant means the rules do not depend on the IO, not that the IO is unimportant. Users judge the product by its interface, and it needs real care.",
+    "media": [
+     {
+      "id": "fig/17-4",
+      "alt": "Two component boxes, each with two small tabs on its left edge: Business Rules at top left and GUI at lower right. A thick wavy line runs between them. A single arrow leaves GUI, crosses the line, and ends with its arrowhead at Business Rules.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4177,7 +4655,15 @@
     ],
     "paragraphs": [],
     "rule": "Keep the core business rules independent, and attach every optional or varied component to them as a plugin.",
-    "limits": "A plugin structure makes a replacement possible and practical, not free. Rules shaped around the first interface may still need rework for a very different one."
+    "limits": "A plugin structure makes a replacement possible and practical, not free. Rules shaped around the first interface may still need rework for a very different one.",
+    "media": [
+     {
+      "id": "fig/17-5",
+      "alt": "Three component boxes: Business Rules at left centre, DB at top right and GUI at the bottom. One thick curved line separates DB from Business Rules and another separates GUI from Business Rules. An arrow runs from DB to Business Rules and another from GUI to Business Rules. No arrow leaves Business Rules.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4210,7 +4696,15 @@
     ],
     "paragraphs": [],
     "rule": "Make the modules you want to protect not depend on the modules that change, so changes cannot propagate to them.",
-    "limits": "The protection runs one way. The plugin remains exposed to the core's changes, so the core's owners carry a duty not to break plugins needlessly."
+    "limits": "The protection runs one way. The plugin remains exposed to the core's changes, so the core's owners carry a duty not to break plugins needlessly.",
+    "media": [
+     {
+      "id": "fig/17-6",
+      "alt": "Two component boxes stacked, each with two small tabs on its left edge: VS above and ReSharper below. One arrow runs from ReSharper up to VS, with its arrowhead at VS.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4284,7 +4778,27 @@
     ],
     "paragraphs": [],
     "rule": "Where control flows to a lower-level service, put an interface on the higher level's side so the source dependency points up.",
-    "limits": "The inversion needs polymorphism. Without polymorphism, only function pointers remain."
+    "limits": "The inversion needs polymorphism. Without polymorphism, only function pointers remain.",
+    "media": [
+     {
+      "id": "fig/18-1",
+      "alt": "Class diagram split by a thick double vertical line. Client sits on the left. On the right are Service, with a method + f, and Data, tagged DS. Arrows run from Client to Service and from Client to Data, both crossing the line, and from Service down to Data.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/18-2",
+      "alt": "A thick double vertical line splits the diagram. On the left are Client, Service (tagged I, with + f) and Data (tagged DS); Client points to Service and to Data. On the right is ServiceImpl with + f. A hollow-triangle arrow runs from ServiceImpl across the line to Service, and a plain arrow from ServiceImpl across the line to Data.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-18",
+      "alt": "Four people in hard hats hold papers and look at a brick wall covered in graffiti words. A cartoon face peeks over the top of the wall.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4417,7 +4931,21 @@
     ],
     "paragraphs": [],
     "rule": "Group policies by how they change, measure level by distance from the inputs and outputs, and make low-level components depend on high-level ones.",
-    "limits": "Level is about distance from input and output, not about importance as judged by users. Dependencies are compile-time, source-code dependencies, not the flow of data."
+    "limits": "Level is about distance from input and output, not about importance as judged by users. Dependencies are compile-time, source-code dependencies, not the flow of data.",
+    "media": [
+     {
+      "id": "fig/19-3",
+      "alt": "Two component boxes side by side, each with two small tabs on its left edge: Encryption on the left and IO Devices on the right. One arrow runs from IO Devices leftward to Encryption, with its arrowhead at Encryption.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-19",
+      "alt": "A line drawing of a Greek temple with columns and a pediment seen from a corner, with a large urn on a pedestal at the front left.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4457,7 +4985,21 @@
     ],
     "paragraphs": [],
     "rule": "Let source dependencies follow the level of the policy, not the direction of the data flow.",
-    "limits": "The data flow does not change: it still runs from reader to writer. Only the direction of the compile-time dependencies is chosen by level."
+    "limits": "The data flow does not change: it still runs from reader to writer. Only the direction of the compile-time dependencies is chosen by level.",
+    "media": [
+     {
+      "id": "fig/19-1",
+      "alt": "Data flow diagram of three ovals: Translate at the top, Read Char at bottom left and Write Char at bottom right, plus a Table box at top right with an arrow into Translate. Solid curved arrows labelled char run from Read Char up to Translate and from Translate down to Write Char. Dashed lines labelled source code dependencies run from Read Char and from Write Char to Translate, arrowheads at Translate.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/19-2",
+      "alt": "Class diagram. Encrypt at the top has arrows down to two interface boxes, Char Reader and Char Writer, each tagged I. Below, Console Reader and Console Writer each have a hollow-triangle arrow up to the interface above them. A thick dashed oval encloses Encrypt, Char Reader and Char Writer but not the two console classes.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4488,7 +5030,21 @@
     ],
     "paragraphs": [],
     "rule": "Put each rule that would make or save money even without a computer, together with its data, in a separate Entity that knows nothing of databases, screens or frameworks.",
-    "limits": "An Entity holds a small set of critical rules. Rules that exist only because the system is automated do not belong in it."
+    "limits": "An Entity holds a small set of critical rules. Rules that exist only because the system is automated do not belong in it.",
+    "media": [
+     {
+      "id": "fig/20-1",
+      "alt": "A UML class box named Loan. The attributes section lists principle, rate and period. The operations section lists makePayment(), applyInterest() and chargeLateFee(). Nothing in the box mentions a database, screen or framework.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-20",
+      "alt": "Cartoon: two men in suits stand side by side, one smiling with eyes closed, while a third man with glasses holds a tall ruler up against the bearded man in the middle, measuring him.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4521,7 +5077,15 @@
     ],
     "paragraphs": [],
     "rule": "Put rules that exist only because the system is automated into use cases that describe input, output and processing steps, and leave the user interface out of them.",
-    "limits": "A use case is not the screen flow: it names the data in and out, not how it looks. Rules that hold with or without a computer stay in Entities."
+    "limits": "A use case is not the screen flow: it names the data in and out, not how it looks. Rules that hold with or without a computer stay in Entities.",
+    "media": [
+     {
+      "id": "fig/20-2",
+      "alt": "An index card titled Gather Contact Info for New Loan. Input: name, address, birthdate, driver licence number, SSN. Output: the same information for readback plus a credit score. Primary course: 1 accept and validate name; 2 validate address, birthdate and ID numbers; 3 get credit score; 4 if score is under 500 activate Denial; 5 else create Customer and activate Loan Estimation.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4660,7 +5224,15 @@
     ],
     "paragraphs": [],
     "rule": "Let the top-level structure announce what the system is for, its use cases, rather than which framework it uses.",
-    "limits": "The point is what the structure announces, not a ban on frameworks. Frameworks may appear below the top level; the concern is that they must not supply the architecture."
+    "limits": "The point is what the structure announces, not a ban on frameworks. Frameworks may appear below the top level; the concern is that they must not supply the architecture.",
+    "media": [
+     {
+      "id": "art/ch-21",
+      "alt": "Cartoon of a small house with snarling faces: a grimacing face above the door, a lion-like face holding a window, a screen held by a face on the roof, and a mailbox with a mouth.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4827,7 +5399,15 @@
     ],
     "paragraphs": [],
     "rule": "Source code dependencies point only inward, so nothing in an inner circle may mention a name or a data format declared in an outer circle.",
-    "limits": "The rule limits what code may name, not which way data or control flows. Control can still travel outward, by means the next ideas show."
+    "limits": "The rule limits what code may name, not which way data or control flows. Control can still travel outward, by means the next ideas show.",
+    "media": [
+     {
+      "id": "art/ch-22",
+      "alt": "Cartoon: a startled man at a drawing board has just had a bowl of black ink spilled across his plan by a grinning dog that stands with its paws on the board.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4860,7 +5440,15 @@
     ],
     "paragraphs": [],
     "rule": "Place enterprise rules in Entities, application rules in use cases, converters and SQL in interface adapters, and tools and glue in frameworks and drivers.",
-    "limits": "The four circles are schematic, so more may be needed. What cannot be given up is that source code dependencies always point inward."
+    "limits": "The four circles are schematic, so more may be needed. What cannot be given up is that source code dependencies always point inward.",
+    "media": [
+     {
+      "id": "fig/22-1",
+      "alt": "Four concentric circles titled The Clean Architecture. From the centre outward: Entities (Enterprise Business Rules), Use Cases (Application Business Rules), Controllers, Gateways and Presenters (Interface Adapters), and Web, DB, UI, Devices and External Interfaces (Frameworks and Drivers). Arrows at left point inward to Entities. An inset shows Controller and Presenter beside Use Case Input and Output Ports around a Use Case Interactor, with a Flow of control curve from Controller to Presenter.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -4968,7 +5556,15 @@
     ],
     "paragraphs": [],
     "rule": "The Controller passes plain input through the InputBoundary to the interactor, which passes OutputData through the OutputBoundary to the Presenter, whose ViewModel the View displays, with every dependency pointing inward.",
-    "limits": "This is one typical scenario for a web-based Java system using a database. Our reading: other systems may arrange the same roles in other shapes."
+    "limits": "This is one typical scenario for a web-based Java system using a database. Our reading: other systems may arrange the same roles in other shapes.",
+    "media": [
+     {
+      "id": "fig/22-2",
+      "alt": "A box diagram with boundary lines. Controller points to Input Data and Input Boundary. Presenter points to Output Boundary, Output Data and View Model. Use Case Interactor points to Input Boundary, Output Boundary, Input Data, Output Data, Entities and Data Access Interface. Input Data, Output Data and View Model are tagged DS. Input Boundary, Output Boundary and Data Access Interface are tagged I. View points to View Model. Data Access implements the Data Access Interface and points to Database.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5001,7 +5597,15 @@
     ],
     "paragraphs": [],
     "rule": "Split hard-to-test behaviour into a humble module stripped to its barest essence, and move everything testable into a second module.",
-    "limits": "Our reading: the humble object shrinks the hard-to-test part but does not remove it, and it still needs checks of another kind."
+    "limits": "Our reading: the humble object shrinks the hard-to-test part but does not remove it, and it still needs checks of another kind.",
+    "media": [
+     {
+      "id": "art/ch-23",
+      "alt": "Cartoon: a smiling man holds a microphone on a stage while some of the audience seated in rows look anxious, bite their nails or cover their faces with their hands.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5174,7 +5778,15 @@
     ],
     "paragraphs": [],
     "rule": "To hold a place for a boundary, build every interface and structure of a full boundary but compile and deploy both sides as one component.",
-    "limits": "The saving is in administration, not in code or design effort. Without a real boundary the separation can erode."
+    "limits": "The saving is in administration, not in code or design effort. Without a real boundary the separation can erode.",
+    "media": [
+     {
+      "id": "art/ch-24",
+      "alt": "Cartoon: a small dog barks upward at a huge dog's head that pokes through a pet door in a wall above a checkerboard floor.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5207,7 +5819,15 @@
     ],
     "paragraphs": [],
     "rule": "A Strategy interface gives a one-dimensional boundary: it isolates clients from the implementation in one direction and relies on discipline for the rest.",
-    "limits": "It guards one direction only. Whatever the structure does not enforce is left to the diligence and discipline of the developers and architects."
+    "limits": "It guards one direction only. Whatever the structure does not enforce is left to the diligence and discipline of the developers and architects.",
+    "media": [
+     {
+      "id": "fig/24-1",
+      "alt": "Three boxes. Client has a solid arrow to Service Boundary, tagged as an interface. Service Impl has a hollow-headed arrow up to Service Boundary. A dashed red arrow runs from Service Impl back to Client. A wavy red line passes between Client and the other two boxes.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5240,7 +5860,15 @@
     ],
     "paragraphs": [],
     "rule": "A Facade is the simplest partial boundary: one class lists the services, but clients still depend, transitively, on every service class behind it.",
-    "limits": "Hiding the service classes behind a Facade does not remove the dependency: in static languages the client still recompiles when they change."
+    "limits": "Hiding the service classes behind a Facade does not remove the dependency: in static languages the client still recompiles when they change.",
+    "media": [
+     {
+      "id": "fig/24-2",
+      "alt": "Client has an arrow to a box named Facade. Facade has arrows to a stack of four overlapping boxes, the front one labelled Service. Client has no arrow of its own to any Service box.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5274,7 +5902,27 @@
     ],
     "paragraphs": [],
     "rule": "Give each part that varies, such as the UI language or the data store, its own component behind an API the rules define, so that many variants can reuse the same rules.",
-    "limits": "Our reading: each split adds an API and components, so it pays only where the variation or the change is real."
+    "limits": "Our reading: each split adds an API and components, so it pays only where the variation or the change is real.",
+    "media": [
+     {
+      "id": "art/ch-25",
+      "alt": "Cartoon: a woman and a bald man with glasses look in wonder at a large tiered wedding cake topped with a bride and groom, which stands inside a glass case.",
+      "role": "illustration",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/25-1",
+      "alt": "Two boxes, English UI and Spanish UI, each with an arrow pointing to a single box named Game Rules. Game Rules has no arrows leaving it.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/25-2",
+      "alt": "Game Rules in the centre. English UI and Spanish UI, on the left, and Flash Data and Cloud Data, on the right, each have an arrow pointing at Game Rules. Game Rules has no arrow leaving it.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5307,7 +5955,15 @@
     ],
     "paragraphs": [],
     "rule": "Treat each axis of change as a potential boundary with an API that the using component defines and the used component implements.",
-    "limits": "The example does not say every axis needs a full boundary. The chapter's conclusion warns that fully implemented boundaries are expensive."
+    "limits": "The example does not say every axis needs a full boundary. The chapter's conclusion warns that fully implemented boundaries are expensive.",
+    "media": [
+     {
+      "id": "fig/25-3",
+      "alt": "A box diagram. SMS and Console point to a dashed box Text Delivery, which points to a dashed box Language. English and Spanish also point up to Language. Language points to Game Rules. On the right, Cloud Data and Flash Data point to a dashed box Data Storage, which points to Game Rules.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5340,7 +5996,21 @@
     ],
     "paragraphs": [],
     "rule": "Orient dependency arrows toward the highest-level policy: each independent concern forms a stream that meets at that policy, and there can be more than two.",
-    "limits": "The arrows show source code dependencies, not the direction in which data flows."
+    "limits": "The arrows show source code dependencies, not the direction in which data flows.",
+    "media": [
+     {
+      "id": "fig/25-4",
+      "alt": "Game Rules at the top as a solid box. Below left, dashed Language has an arrow up to Game Rules, and dashed Text Delivery has an arrow up to Language. Below right, dashed Data Storage has an arrow up to Game Rules. A vertical dashed red line runs between the left and right groups.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/25-5",
+      "alt": "Game Rules is a solid box at the top. Three dashed boxes below it, Language, Data Storage and Network, each have an arrow pointing up to Game Rules. Two vertical dashed red lines separate the three boxes from one another.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5373,7 +6043,21 @@
     ],
     "paragraphs": [],
     "rule": "Inside one component, look for policies at different levels: the lower level declares events and the higher level decides what they mean.",
-    "limits": "Our reading: policies at different levels need not be separate boundaries. A line between them is an architectural boundary only where the cost is worth paying."
+    "limits": "Our reading: policies at different levels need not be separate boundaries. A line between them is an architectural boundary only where the cost is worth paying.",
+    "media": [
+     {
+      "id": "fig/25-6",
+      "alt": "Dashed box Player Management at the top. Below it, solid box Move Management has an arrow up to Player Management. Three dashed boxes, Language, Data Storage and Network, each have an arrow up to Move Management. Two vertical dashed red lines separate those three boxes.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/25-7",
+      "alt": "Dashed Player Management at the top centre. Left: dashed Network points to solid Player Mgt. Imp., which points to Player Management. Centre: dashed Network points to solid Player Mgt. Proxy, which points to Player Management. A yellow zigzag joins the two Network boxes. Right: solid Move Management points to Player Management; dashed Language and Data Storage point up to Move Management.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5438,7 +6122,15 @@
     ],
     "paragraphs": [],
     "rule": "Main is the lowest-level, outermost policy: it builds the concrete parts, hands control to the high-level policy, and nothing depends on it.",
-    "limits": "Running first does not make Main high-level. It is the lowest-level policy because it holds the most detail and nothing else is allowed to depend on it."
+    "limits": "Running first does not make Main high-level. It is the lowest-level policy because it holds the most detail and nothing else is allowed to depend on it.",
+    "media": [
+     {
+      "id": "art/ch-26",
+      "alt": "A cheerful mechanic in a cap and glasses holds up a pair of pliers in one hand. Behind him sits a boxy machine with gears and levers, and a hammer, screwdriver and wrench lie on the floor.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5545,7 +6237,15 @@
     ],
     "paragraphs": [],
     "rule": "A service is architecturally significant only when it sits on a boundary that separates high-level policy from low-level detail and follows the Dependency Rule.",
-    "limits": "The point is about what defines architecture, not about whether services are worth building. The author does not say services should be avoided, and he agrees some of them are architecturally significant."
+    "limits": "The point is about what defines architecture, not about whether services are worth building. The author does not say services should be avoided, and he agrees some of them are architecturally significant.",
+    "media": [
+     {
+      "id": "art/ch-27",
+      "alt": "A man drives a small street-sweeping vehicle with two round brushes along a pavement, while a shopkeeper with a broom stands in a doorway watching.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5677,7 +6377,15 @@
     ],
     "paragraphs": [],
     "rule": "If a new feature forces every service in a chain to change, the services are coupled and cannot be developed, deployed or maintained independently.",
-    "limits": "Our reading: the example shows a feature that touches every service. A change to one service's internals, such as how TaxiDispatcher contacts a supplier, need not spread this way."
+    "limits": "Our reading: the example shows a feature that touches every service. A change to one service's internals, such as how TaxiDispatcher contacts a supplier, need not spread this way.",
+    "media": [
+     {
+      "id": "fig/27-1",
+      "alt": "Boxes joined by arrows. Taxi UI points to Taxi Finder and to Taxi Selector. Taxi Finder points to three stacked supplier boxes, Taxi Supplier1, 2 and 3, and to a Candidate Taxis record, which points to Taxi Selector. Taxi Selector points to Taxi Dispatcher, which also points to the three suppliers.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5747,7 +6455,15 @@
     ],
     "paragraphs": [],
     "rule": "Put each feature in its own component that overrides abstract base classes, with dependencies pointing at the base classes.",
-    "limits": "This is the component-based answer, not a free one: the user interface still has to change, and the base classes must offer a place for each extension, such as a Template Method or a Strategy."
+    "limits": "This is the component-based answer, not a free one: the user interface still has to change, and the base classes must offer a place for each extension, such as a Template Method or a Strategy.",
+    "media": [
+     {
+      "id": "fig/27-2",
+      "alt": "Abstract boxes marked A: Taxi Finder, Taxi Selector, Taxi Dispatcher and Taxi Suppliers. Taxi UI points to Finder, Selector and a Component Factories box. Below a boundary, two components named Rides and Kittens each hold stacked classes with hollow-head arrows up to the abstract boxes. Factories point to both components.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5780,7 +6496,15 @@
     ],
     "paragraphs": [],
     "rule": "Give every service an internal component structure, so a new feature is a component the service loads, not a change to the service.",
-    "limits": "Jar files are the Java form of the idea. The rule is the component structure that lets a feature be added without editing the old components, not the file type."
+    "limits": "Jar files are the Java form of the idea. The rule is the component structure that lets a feature be added without editing the old components, not the file type.",
+    "media": [
+     {
+      "id": "fig/27-3",
+      "alt": "Taxi UI points to Taxi Finder and Taxi Selector; Finder points to Candidate Taxis and to three Taxi Supplier boxes; Selector points to Taxi Dispatcher, which points to the suppliers. Under Finder, Selector and Dispatcher sit Ride and Kitty versions with hollow-head arrows up. Stacks Ride Supplier and Kitty Supplier point up to the suppliers.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5814,7 +6538,15 @@
     ],
     "paragraphs": [],
     "rule": "Draw the architectural boundaries inside services, as component boundaries that follow the Dependency Rule.",
-    "limits": "Whether a service gets such boundaries depends on its design. The claim is that the edges of services alone do not decide the architecture."
+    "limits": "Whether a service gets such boundaries depends on its design. The claim is that the edges of services alone do not decide the architecture.",
+    "media": [
+     {
+      "id": "fig/27-4",
+      "alt": "A Taxi Selector box marked A sits inside a boundary at the top. Below it, in two separate compartments named Rides and Kittens, are Ride Selector and Kitten Selector. Each has a hollow-head arrow pointing up to Taxi Selector.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -5845,7 +6577,15 @@
     ],
     "paragraphs": [],
     "rule": "Treat every test as an outer component that depends inward on the code it checks, with nothing in the system depending on it.",
-    "limits": "The claim is about architectural equivalence, not about speed, scope or cost. The author does not say all kinds of tests are the same in those ways."
+    "limits": "The claim is about architectural equivalence, not about speed, scope or cost. The author does not say all kinds of tests are the same in those ways.",
+    "media": [
+     {
+      "id": "art/ch-28",
+      "alt": "A mushroom cloud rises behind a wooden picket fence. A skull and crossbones is painted on the fence in front.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6041,7 +6781,15 @@
     ],
     "paragraphs": [],
     "rule": "Code is firmware because of what it depends on and how hard it is to change as hardware evolves, not because of where it is stored.",
-    "limits": "The author has nothing against firmware or firmware engineers. His claim is that too much code becomes firmware that need not be."
+    "limits": "The author has nothing against firmware or firmware engineers. His claim is that too much code becomes firmware that need not be.",
+    "media": [
+     {
+      "id": "art/ch-29",
+      "alt": "Two explorers in pith helmets kneel at a large rock. One chips at it with a hammer while the other brushes it, revealing a cylinder with a grid pattern inside.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6140,7 +6888,21 @@
     ],
     "paragraphs": [],
     "rule": "Keep a firm line between software and firmware; intermingling resists change and makes even small changes risky.",
-    "limits": "The hardware-to-code line is a given once the hardware is defined. The work is on the fuzzier line between software and firmware."
+    "limits": "The hardware-to-code line is a given once the hardware is defined. The work is on the fuzzier line between software and firmware.",
+    "media": [
+     {
+      "id": "fig/29-1",
+      "alt": "Three stacked boxes, top to bottom: Software, Firmware, Hardware. Each box is plain with a single outline and clear borders between them.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/29-2",
+      "alt": "Two stacked boxes. The top box, labelled Firmware, is filled with a dense speckle pattern. The bottom box, labelled Hardware, is plain. There is no separate Software box above the speckled one.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6179,7 +6941,21 @@
     ],
     "paragraphs": [],
     "rule": "Shape the HAL's API to the services the software needs, and hide how the hardware provides them.",
-    "limits": "A HAL that only mirrors the hardware, with bytes and bit numbers, still leaks hardware detail. Its worth comes from being written from the software's point of view."
+    "limits": "A HAL that only mirrors the hardware, with bytes and bit numbers, still leaks hardware detail. Its worth comes from being written from the software's point of view.",
+    "media": [
+     {
+      "id": "fig/29-3",
+      "alt": "Three stacked boxes: Software, Firmware, Hardware. The Software box is plain, the Hardware box is plain, and the Firmware box has a speckled, blurred outline at its top and bottom edges, so the line between Software and Firmware looks fuzzy.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/29-4",
+      "alt": "Four stacked boxes, top to bottom: Software, a thin empty band, Firmware, Hardware. A handwritten label HAL with a curved arrow points to the thin band between Software and Firmware.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6251,7 +7027,21 @@
     ],
     "paragraphs": [],
     "rule": "Isolate the software from the operating system through an OSAL, so a change of OS means writing a new OSAL.",
-    "limits": "A HAL alone may be enough in bare-metal systems. The OSAL is needed when an operating system sits between the software and the firmware."
+    "limits": "A HAL alone may be enough in bare-metal systems. The OSAL is needed when an operating system sits between the software and the firmware.",
+    "media": [
+     {
+      "id": "fig/29-5",
+      "alt": "Four stacked boxes, top to bottom: Software, OS, Firmware, Hardware. All are plain with single outlines.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/29-6",
+      "alt": "Six stacked layers, top to bottom: Software, a thin band, OS, a thin band, Firmware, Hardware. Handwritten label OSAL with a curved arrow points to the upper thin band between Software and OS. Label HAL with an arrow points to the lower band between OS and Firmware.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6354,7 +7144,15 @@
      }
     ],
     "rule": "Give the structure of the data a place in the architecture, and keep the database product out of it.",
-    "limits": "The claim is about where the database sits in the design, not about whether databases work well."
+    "limits": "The claim is about where the database sits in the design, not about whether databases work well.",
+    "media": [
+     {
+      "id": "art/ch-30",
+      "alt": "A boy reads a large open book titled Business Rules, while three closed books labelled SqlServer, MySql and Oracle lie on the floor beside his table.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6610,7 +7408,15 @@
      }
     ],
     "rule": "Treat the web as one swing in a long pendulum, and keep such swings away from the business rules.",
-    "limits": "Our reading: the author's history is a sketch. It supports keeping the core separate, not the claim that web work is easy."
+    "limits": "Our reading: the author's history is a sketch. It supports keeping the core separate, not the claim that web work is easy.",
+    "media": [
+     {
+      "id": "art/ch-31",
+      "alt": "A formally dressed man with a moustache reaches up with a long-handled brush to sweep a cobweb from the corner of an arched doorway.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6738,7 +7544,15 @@
      }
     ],
     "rule": "A framework solves its author's problems, so use it where yours overlap.",
-    "limits": "The author calls frameworks generally a good thing; the warning is about trust, not about avoiding them."
+    "limits": "The author calls frameworks generally a good thing; the warning is about trust, not about avoiding them.",
+    "media": [
+     {
+      "id": "art/ch-32",
+      "alt": "A City Hall building hidden behind scaffolding, with a sign reading City Hall Opening Soon. One worker raises a flagpole and two others carry a beam.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6898,7 +7712,21 @@
      }
     ],
     "rule": "Treat each actor as a source of change, and partition so that a change for one actor does not reach another.",
-    "limits": "Our reading: the actors are four in this case study. A fuller analysis could find more."
+    "limits": "Our reading: the actors are four in this case study. A fuller analysis could find more.",
+    "media": [
+     {
+      "id": "fig/33-1",
+      "alt": "Use-case diagram split into four regions by lines. Author: Submit MP4, Submit Exam, Submit Video Description. Admin: Add New Series, Publish Video in Series, Remove video from Series, Set License Price. Purchaser: Purchase Download, Streaming and Business License, all generalizing a dashed Purchase License, plus View Catalog as Purchaser. Viewer: View Catalog as Viewer, Stream Video, Download Video. A dashed View Catalog in the centre is generalized by both View Catalog use cases.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-33",
+      "alt": "A scruffy man with a cigarette in his mouth holds up a video cassette and gives a thumbs-up, standing behind a crate labelled VCR Tapes.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -6962,7 +7790,15 @@
      }
     ],
     "rule": "Split views, presenters, interactors and controllers by actor; each group is a potential deployable component.",
-    "limits": "The drawing is a preliminary architecture, not a final deployment plan."
+    "limits": "The drawing is a preliminary architecture, not a final deployment plan.",
+    "media": [
+     {
+      "id": "fig/33-2",
+      "alt": "Component diagram in four columns, left to right: Views, Presenters, Interactors, Controllers, separated by vertical double lines. Rows are Admin, Author, Purchaser and Viewer, each with its own component in every column. Catalog View and Catalog Presenter sit beside the Purchaser and Viewer rows. Arrows link views to presenters, presenters to interactors, and controllers to interactors. Below a horizontal double line, Revenue Gateways and Data Gateways point up to interactors, and Data Gateways points to Database (Datomic).",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -7058,7 +7894,21 @@
      }
     ],
     "rule": "Package by layer sorts code by technical function: quick to start, but silent about the domain.",
-    "limits": "The chapter's author calls it the simplest approach and says it suits a start, not a large system."
+    "limits": "The chapter's author calls it the simplest approach and says it suits a start, not a large system.",
+    "media": [
+     {
+      "id": "fig/34-1",
+      "alt": "UML diagram of three stacked packages. Top, com.mycompany.myapp.web, holds OrdersController. Middle, com.mycompany.myapp.service, holds interface OrdersService and OrdersServiceImpl, which implements it. Bottom, com.mycompany.myapp.data, holds interface OrdersRepository and JdbcOrdersRepository, which implements it. Dashed uses arrows run down from OrdersController to OrdersService and from OrdersServiceImpl to OrdersRepository.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "art/ch-34",
+      "alt": "A puzzled man with a question mark in a thought bubble holds an open notebook with ragged, torn pages.",
+      "role": "illustration",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -7090,7 +7940,15 @@
      }
     ],
     "rule": "Package by feature puts all the types of one concept in one package, so the packages name the domain.",
-    "limits": "According to the chapter's author, both package by layer and package by feature are suboptimal."
+    "limits": "According to the chapter's author, both package by layer and package by feature are suboptimal.",
+    "media": [
+     {
+      "id": "fig/34-2",
+      "alt": "One package, com.mycompany.myapp.orders, holds five stacked types: OrdersController, interface OrdersService, OrdersServiceImpl, interface OrdersRepository and JdbcOrdersRepository. Uses arrows run from the controller to OrdersService and from OrdersServiceImpl to OrdersRepository. Implementation arrows run up from OrdersServiceImpl to OrdersService and from JdbcOrdersRepository to OrdersRepository.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -7122,7 +7980,21 @@
      }
     ],
     "rule": "In ports and adapters, the outside depends on the inside and never the reverse.",
-    "limits": "The chapter's author calls his diagram simplified; a full version has interactors and marshalling objects."
+    "limits": "The chapter's author calls his diagram simplified; a full version has interactors and marshalling objects.",
+    "media": [
+     {
+      "id": "fig/34-3",
+      "alt": "Two concentric circles. The outer ring is labelled Infrastructure and the inner circle, drawn inside it, is labelled Domain. No arrows are drawn.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/34-4",
+      "alt": "Three stacked packages. Top, com.mycompany.myapp.web, holds OrdersController. Middle, com.mycompany.myapp.domain, holds interface OrdersService, OrdersServiceImpl and interface Orders. Bottom, com.mycompany.myapp.database, holds JdbcOrdersRepository. Uses arrows run from the controller to OrdersService and from OrdersServiceImpl to Orders. Implementation arrows run up from OrdersServiceImpl to OrdersService and from JdbcOrdersRepository, across the package boundary, to Orders.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -7154,7 +8026,15 @@
      }
     ],
     "rule": "Downward arrows are not enough: without enforcement a layer can skip the one beneath it.",
-    "limits": "Static analysis tools are crude but can do the trick. The chapter's author's point is that they are fallible, not useless."
+    "limits": "Static analysis tools are crude but can do the trick. The chapter's author's point is that they are fallible, not useless.",
+    "media": [
+     {
+      "id": "fig/34-5",
+      "alt": "The three-package layered diagram (web, service, data) with OrdersController in web, OrdersService and OrdersServiceImpl in service, OrdersRepository and JdbcOrdersRepository in data. Besides the downward uses arrows through the service, a second dashed uses arrow runs from OrdersController around the right side straight down to the OrdersRepository interface, skipping the service package.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -7186,7 +8066,15 @@
      }
     ],
     "rule": "Bundle business logic and persistence behind one clean interface in a single package, with the UI kept apart.",
-    "limits": "This is the chapter's author's own view, and his definition of a component differs from the book's earlier unit-of-deployment definition."
+    "limits": "This is the chapter's author's own view, and his definition of a component differs from the book's earlier unit-of-deployment definition.",
+    "media": [
+     {
+      "id": "fig/34-6",
+      "alt": "Two packages. Top, com.mycompany.myapp.web, holds OrdersController. Bottom, com.mycompany.myapp.orders, holds interface OrdersComponent, OrdersComponentImpl, interface OrdersRepository and JdbcOrdersRepository. One uses arrow runs from the controller to OrdersComponent. Inside the orders package, OrdersComponentImpl implements OrdersComponent and uses OrdersRepository, which JdbcOrdersRepository implements.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -7250,7 +8138,21 @@
      }
     ],
     "rule": "Packages encapsulate only when types are made package protected, otherwise the four styles are the same code.",
-    "limits": "Java's access modifiers are not perfect: they cannot restrict access by package and subpackage, and reflection can cheat."
+    "limits": "Java's access modifiers are not perfect: they cannot restrict access by package and subpackage, and reflection can cheat.",
+    "media": [
+     {
+      "id": "fig/34-7",
+      "alt": "Four side-by-side columns of boxes with no package outlines, each starting with OrdersController. Columns one and two: OrdersService, OrdersServiceImpl, OrdersRepository, JdbcOrdersRepository. Column three: OrdersService, OrdersServiceImpl, Orders, JdbcOrdersRepository. Column four: OrdersComponent, OrdersComponentImpl, OrdersRepository, JdbcOrdersRepository. Uses and implementation arrows join the boxes in the same pattern in every column.",
+      "role": "figure",
+      "type": "image/webp"
+     },
+     {
+      "id": "fig/34-8",
+      "alt": "Four columns with package outlines; some types are faded grey. Layer: web, service and data packages; OrdersController, OrdersService and OrdersRepository dark, both implementation classes faded. Feature: one orders package; only OrdersController dark. Ports and adapters: web, domain, database packages; OrdersController, OrdersService and Orders dark, the rest faded. Component: web and orders packages; OrdersController and OrdersComponent dark, the rest faded.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -7282,7 +8184,15 @@
      }
     ],
     "rule": "Compile-time separation of source trees and module systems can decouple more than modifiers, at a cost in complexity.",
-    "limits": "The author calls the full split an idealistic solution; weigh the real costs for your team."
+    "limits": "The author calls the full split an idealistic solution; weigh the real costs for your team.",
+    "media": [
+     {
+      "id": "fig/34-9",
+      "alt": "Two concentric circles. The outer ring is labelled Infrastructure and the inner circle, drawn inside it, is labelled Domain. No arrows are drawn.",
+      "role": "figure",
+      "type": "image/webp"
+     }
+    ]
    }
   },
   {
@@ -29903,9 +30813,9 @@
   {
    "role": "spot-error",
    "kind": "mcq",
-   "q": "A diagram shows Client depending on ServiceBoundary, ServiceImpl implementing it, and also a direct arrow from Client to ServiceImpl. What does the author say?",
+   "q": "A diagram shows Client depending on ServiceBoundary, ServiceImpl implementing it, and a direct arrow from ServiceImpl back to Client. What does the author say?",
    "options": [
-    "It is required, so that the client can construct the implementation it needs",
+    "It is required, so that the implementation can call back into the client",
     "It is the kind of backchannel that, in this structure, only discipline can prevent",
     "It is harmless, since the interface is still present between them",
     "It is impossible, since dependency inversion forbids such a direct arrow"
@@ -40102,6 +41012,1780 @@
    "explain": "The book treats a framework as a tool used with skepticism. Commitment is acceptable only as a deliberate decision, kept behind a boundary as long as possible.",
    "rule": "Use frameworks as tools; marry only deliberately.",
    "teaches": "The commitment to a framework runs one way: you take on all the risk and burden, and the framework's author makes no matching commitment to you."
+  },
+  {
+   "id": "intro-signature-of-a-mess-6",
+   "unit": "Part I",
+   "unitTitle": "Introduction: design and architecture",
+   "section": "Case Study",
+   "concept": "intro-signature-of-a-mess",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "mcq",
+   "q": "In the size chart, bars climb from about 3000 to 7100 KLOC but flatten by release 8. What does the flattening show?",
+   "options": [
+    "Developers are deleting old code each release, so net size stops growing",
+    "The product is nearly complete, so later releases need fewer developers",
+    "Each release adds less new code than the last, though the staff keeps growing",
+    "Lines of code are a poor measure, so the flattening says nothing about output"
+   ],
+   "answer": 2,
+   "explain": "The bars show size still rising but by ever smaller steps, which the author calls an approach to an asymptote even as every release had more developers.",
+   "optionExplain": [
+    "Nothing in the case study says code was deleted; the flattening is about new code added.",
+    "The staff chart shows headcount rising, not falling, so this does not fit the data.",
+    "Right: growth per release shrinks while the staff grows, which the author reads as something going wrong.",
+    "The author uses lines of code as his measure and treats the flattening as a warning sign."
+   ],
+   "rule": "Flat output with rising headcount is a warning sign.",
+   "media": [
+    {
+     "id": "fig/1-2",
+     "alt": "Bar chart of product size in thousands of lines of code (KLOC) for releases 1 to 8, axis 0 to 8000. Bars rise from about 3000 in release 1 to 5000 in release 2, then each later bar grows by less: about 5800, 6400, 6800, 7000, 7100 and 7150 in release 8.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "intro-signature-of-a-mess-7",
+   "unit": "Part I",
+   "unitTitle": "Introduction: design and architecture",
+   "section": "Case Study",
+   "concept": "intro-signature-of-a-mess",
+   "rung": 7,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "The productivity line falls from 100% in release 1 to about 3% in release 8. What does the author say about developers' effort?",
+   "options": [
+    "Developers eased off, so effort fell in step with the curve",
+    "Effort stayed high but was consumed by managing the mess",
+    "Effort rose sharply, so output per hour matched the early releases",
+    "Effort moved to testing, which the chart leaves out of output"
+   ],
+   "answer": 1,
+   "explain": "The author stresses that everyone is working hard and nobody has decreased their effort; the effort is diverted from features to managing the mess.",
+   "optionExplain": [
+    "The author says explicitly that nobody decreased their effort.",
+    "Right: effort goes into moving the mess around rather than adding features.",
+    "Rising effort is not claimed; the point is that high effort buys almost nothing.",
+    "The book does not describe a shift to testing; it describes a shift to managing the mess."
+   ],
+   "rule": "Falling productivity does not mean developers are working less.",
+   "media": [
+    {
+     "id": "fig/1-4",
+     "alt": "Line chart titled Productivity/Release, releases 1 to 8, vertical axis 0 to 100 percent. Productivity starts at 100% in release 1, falls to about 67% in release 2 and about 20% in release 3, then declines slowly to about 3% by release 8.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "intro-only-way-to-go-fast-6",
+   "unit": "Part I",
+   "unitTitle": "Introduction: design and architecture",
+   "section": "Case Study",
+   "concept": "intro-only-way-to-go-fast",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "mcq",
+   "q": "In the chart, which comparison shows that TDD and not practice alone made the work faster?",
+   "options": [
+    "The No TDD bar falls from iteration 1 to iteration 3, so work got quicker with practice",
+    "The gap between the green and blue bars narrows in iteration 3, so TDD matters less over time",
+    "The iteration 3 green bar is lower than the iteration 1 green bar, so TDD itself speeds up",
+    "The iteration 1 green bar, the slowest TDD time, is below the iteration 3 blue bar, the fastest No TDD time"
+   ],
+   "answer": 3,
+   "explain": "Practice alone would let a later No TDD day beat an early TDD day. Instead even the slowest TDD day is faster than the fastest non-TDD day.",
+   "optionExplain": [
+    "This shows a learning curve, which the author notes, but it says nothing about TDD.",
+    "The gap stays roughly similar, and the author does not read it as TDD fading in value.",
+    "This too is the learning curve; both series improve with practice.",
+    "Right: an early TDD day beating a late non-TDD day cannot be explained by practice."
+   ],
+   "rule": "Compare the slowest disciplined day with the fastest undisciplined day to separate method from practice.",
+   "media": [
+    {
+     "id": "fig/1-6",
+     "alt": "Grouped bar chart titled Roman Numerals Kata, time to completion in minutes (axis 22 to 30) for iterations 1, 2 and 3. Each iteration has a green With TDD bar and a blue No TDD bar. Green bars are about 26.3, 25.2 and 24.9; blue bars about 29.6, 28.4 and 27.9.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "paradigms-dependency-inversion-6",
+   "unit": "Part II",
+   "unitTitle": "Programming paradigms",
+   "section": "Polymorphism?",
+   "concept": "paradigms-dependency-inversion",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, red source-dependency arrows run the same way as green flow-of-control arrows. What did the author say this left the architect?",
+   "options": [
+    "Few if any options, because behavior set control flow and control flow set dependencies",
+    "Freedom to flip any dependency, since callers could reach callees without naming them",
+    "A free choice of dependency direction at each level while main stayed at the top",
+    "Control over run-time flow, provided header files did not name the called modules"
+   ],
+   "answer": 0,
+   "explain": "Without safe polymorphism every caller had to mention its callee's module, so the dependencies followed the control flow that the system's behavior dictated.",
+   "optionExplain": [
+    "Right: the architect could not point the dependencies another way.",
+    "Callers were forced to name their callee's module, so this freedom did not exist.",
+    "Direction was fixed by the calls themselves at every level, not chosen.",
+    "Naming the module was required by include, import or using; avoiding it was not an option."
+   ],
+   "rule": "Before polymorphism, dependencies followed the flow of control.",
+   "media": [
+    {
+     "id": "fig/5-1",
+     "alt": "Tree diagram. Main at the top, three high-level boxes HL1 to HL3 below it, six mid-level boxes ML1 to ML6, then twelve low-level boxes LL1 to LL12, two children per parent. Solid red arrows (source code dependency) and dashed green arrows (flow of control) both run from each parent down to its children.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "paradigms-dependency-inversion-7",
+   "unit": "Part II",
+   "unitTitle": "Programming paradigms",
+   "section": "Polymorphism?",
+   "concept": "paradigms-dependency-inversion",
+   "rung": 7,
+   "role": "spot-error",
+   "kind": "multi",
+   "q": "Which statements about the diagram are true? Select all that apply.",
+   "options": [
+    "The source dependency from ML1 to I points against the flow of control from HL1 to ML1",
+    "HL1's source code names ML1 directly, as the dashed arrow shows",
+    "HL1's source code depends on interface I and not on ML1",
+    "Interface I exists at run time as an object that forwards each F() call",
+    "Inverting the dependency requires ML1 to stop providing F()"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "explain": "The dashed arrow is flow of control, not a source dependency. HL1 mentions only I, while ML1 depends on I, so that dependency is inverted.",
+   "optionExplain": [
+    "True: the red arrow runs from ML1 to I, opposite to the run-time call from HL1 to ML1.",
+    "False: the dashed green arrow is the flow of control; the red arrow from HL1 goes to I.",
+    "True: HL1 reaches F() through the interface, so its source never names ML1.",
+    "False: the book says the interface is a source code contrivance and does not exist at run time.",
+    "False: ML1 still provides F(); it simply implements I."
+   ],
+   "rule": "A dashed flow-of-control arrow is not a source dependency.",
+   "media": [
+    {
+     "id": "fig/5-2",
+     "alt": "UML-style diagram. Box HL1 has a solid red arrow to a box labelled interface I, which lists +F(). Box ML1, also listing +F(), has a red arrow with a hollow triangle head pointing up to I. A dashed green arrow runs from HL1 to ML1.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "paradigms-independent-deploy-6",
+   "unit": "Part II",
+   "unitTitle": "Programming paradigms",
+   "section": "Polymorphism?",
+   "concept": "paradigms-independent-deploy",
+   "rung": 6,
+   "role": "apply",
+   "kind": "tf",
+   "q": "True or false: In the diagram, control flows from the business rules out to the UI and database, yet the rules' source mentions neither.",
+   "answer": true,
+   "explain": "The green arrows show calls leaving the rules, while the red source dependencies point into the rules from the UI and the database.",
+   "rule": "Dependencies can point opposite to the flow of control.",
+   "media": [
+    {
+     "id": "fig/5-3",
+     "alt": "Three boxes in a row: UI on the left, Business Rules in the middle, Database on the right. Solid red arrows run from UI to Business Rules and from Database to Business Rules. Dashed green curved arrows run from Business Rules to UI and from Business Rules to Database.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "paradigms-segregate-mutability-6",
+   "unit": "Part II",
+   "unitTitle": "Programming paradigms",
+   "section": "Segregation of Mutability",
+   "concept": "paradigms-segregate-mutability",
+   "rung": 6,
+   "role": "spot-error",
+   "kind": "tf",
+   "q": "True or false: In the diagram, the five immutable components change variables themselves and use transactional memory to protect those changes.",
+   "answer": false,
+   "explain": "The immutable components work without mutable variables. State changes sit in the mutable component, which is protected by transactional memory.",
+   "rule": "Keep mutation in a few protected components and the rest immutable.",
+   "media": [
+    {
+     "id": "fig/6-1",
+     "alt": "Five boxes in a row labelled Immutable Components, each with an arrow pointing down to one box labelled Mutable Component. A double-headed arrow connects the Mutable Component to a box below it labelled Transactional Memory.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-srp-actor-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "Symptom 1: Accidental Duplication",
+   "concept": "solid-srp-actor",
+   "rung": 6,
+   "role": "predict",
+   "kind": "multi",
+   "q": "In the diagram, the CFO, COO and CTO all point at the one Employee class. Which two risks does the book tie to this?",
+   "options": [
+    "The class needs a longer name, because three actors now use it",
+    "One actor's change can break behaviour that another actor relies on",
+    "The class can hold one method only, so a second request must wait",
+    "Changes that different actors request can collide in one source file"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "explain": "Putting code for three actors in one class couples them. A change for one can alter what another depends on, and developers from different teams editing the same file produce merges.",
+   "optionExplain": [
+    "Naming has nothing to do with the SRP; the problem is who asks for changes.",
+    "Right: the shared-helper story shows a change for one actor altering another actor's report.",
+    "The class may hold many methods; what matters is that they answer to one actor.",
+    "Right: the DBA schema change and the HR report change collide in the same class."
+   ],
+   "rule": "Code for different actors in one class couples those actors.",
+   "media": [
+    {
+     "id": "fig/7-1",
+     "alt": "Class diagram with one box named Employee listing three public methods: calculatePay, reportHours and save. Three stick figures labelled CFO, COO and CTO stand to its left, and each has a dashed arrow pointing at the Employee box.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-accidental-duplication-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "Symptom 1: Accidental Duplication",
+   "concept": "solid-accidental-duplication",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, accounting wants only calculatePay's result changed. Which edit cannot change what reportHours returns?",
+   "options": [
+    "Editing regularHours, because reportHours uses it only on some inputs",
+    "Editing calculatePay's own code, because no arrow leads into calculatePay",
+    "Editing regularHours and then retesting calculatePay for the accounting team",
+    "Editing whichever function has the most arrows pointing at it"
+   ],
+   "answer": 1,
+   "explain": "reportHours depends on regularHours but not on calculatePay, so only a change inside calculatePay is out of its reach. An edit to regularHours reaches both callers.",
+   "optionExplain": [
+    "Any edit to regularHours reaches every function that points at it, including reportHours.",
+    "Right: nothing points at calculatePay except the actor's request, so reportHours cannot be affected by editing it.",
+    "This is the book's story: the CFO's team validated the change and the HR report still went wrong.",
+    "regularHours has the most arrows pointing at it, so this is the riskiest choice, not a safe one."
+   ],
+   "rule": "A change reaches the functions that point at the changed one.",
+   "media": [
+    {
+     "id": "fig/7-2",
+     "alt": "Three boxes. Two sit side by side on top, calculatePay on the left and reportHours on the right. A third box, regularHours, sits below between them. A solid arrow runs from calculatePay down to regularHours, and another from reportHours down to regularHours.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-srp-solutions-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "Solutions",
+   "concept": "solid-srp-solutions",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "tf",
+   "q": "True or false: In the diagram, PayCalculator may call EmployeeSaver directly, since both already share access to EmployeeData.",
+   "answer": false,
+   "explain": "The three classes share only the data structure. According to the book they are not allowed to know about each other, which is what avoids accidental duplication.",
+   "rule": "Actor classes share data, not code.",
+   "media": [
+    {
+     "id": "fig/7-3",
+     "alt": "Three class boxes stacked on the left: PayCalculator with calculatePay, HourReporter with reportHours, and EmployeeSaver with saveEmployee. Lines from all three join into one arrow pointing right at a single box labelled Employee Data. No arrows connect the three classes to each other.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-srp-solutions-7",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "Solutions",
+   "concept": "solid-srp-solutions",
+   "rung": 7,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, Employee points to HourReporter and EmployeeSaver but no pay class. According to the author, which logic stays in Employee?",
+   "options": [
+    "The report formatting, because HR asks for changes more often than the others",
+    "The saving code, because it is the code nearest to the stored data",
+    "Only a thin shell, with all three algorithms moved to other classes",
+    "The pay calculation, kept as the most important method next to the data"
+   ],
+   "answer": 3,
+   "explain": "In this variant the most important method stays in the original Employee class, which acts as the facade for the lesser functions. The diagram shows classes only for reporting and saving.",
+   "optionExplain": [
+    "The diagram gives HourReporter its own class, so the report code has moved out.",
+    "EmployeeSaver is its own class in the diagram, so the saving code has moved out.",
+    "A pure shell would need a pay class too, and none appears; this describes the separate facade of the other diagram.",
+    "Right: the pay method stays, and Employee delegates reporting and saving to the other two classes."
+   ],
+   "rule": "The variant keeps the key method in Employee and delegates the rest.",
+   "media": [
+    {
+     "id": "fig/7-5",
+     "alt": "A box Employee on the left holds a private employeeData field and three public methods: calculatePay, reportHours and save. Two arrows lead from it to two boxes on the right: HourReporter with reportHours, and EmployeeSaver with saveEmployee. No separate class for calculating pay appears.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-ocp-thought-experiment-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "A Thought Experiment",
+   "concept": "solid-ocp-thought-experiment",
+   "rung": 6,
+   "role": "apply",
+   "kind": "sort",
+   "q": "In the sketch, the analyzer feeds two reporters. Sort each task by the responsibility it belongs to.",
+   "groups": [
+    "Calculation of the reported data",
+    "Presentation of that data"
+   ],
+   "items": [
+    {
+     "t": "Inspecting the financial data",
+     "g": 0
+    },
+    {
+     "t": "Producing the data that can be reported",
+     "g": 0
+    },
+    {
+     "t": "Computing the figures that a page or report shows",
+     "g": 0
+    },
+    {
+     "t": "Wrapping negative numbers in parentheses for print",
+     "g": 1
+    },
+    {
+     "t": "Paginating with page headers and footers",
+     "g": 1
+    },
+    {
+     "t": "Rendering a scrollable page with negatives in red",
+     "g": 1
+    }
+   ],
+   "explain": "The book finds two responsibilities: calculating the reported data and presenting it in a web- or printer-friendly form. The analyzer does the first; the two reporters do the second.",
+   "rule": "Separate calculation from presentation.",
+   "media": [
+    {
+     "id": "fig/8-1",
+     "alt": "Hand-drawn data-flow sketch. A data store, Financial Data, has an arrow to an oval, Financial Analyzer. An arrow leads from the analyzer to a second data store, Financial Report Data. From that store two arrows lead to two ovals: Web Reporter and Print Reporter.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-directional-control-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "Directional Control",
+   "concept": "solid-directional-control",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "mcq",
+   "q": "In the diagram, FinancialDataMapper has a closed arrowhead pointing at FinancialDataGateway. What does that arrow say about their source code?",
+   "options": [
+    "The mapper's source names the gateway; the gateway's source does not name the mapper",
+    "The gateway's source names the mapper, because it calls the mapper through the interface",
+    "Each source names the other, because a closed arrowhead marks a two-way link",
+    "Neither source names the other, because they sit in different components"
+   ],
+   "answer": 0,
+   "explain": "An arrow from A to B means A's source mentions B while B mentions nothing about A. The mapper implements the gateway, so the dependency points from Database toward Interactor.",
+   "optionExplain": [
+    "Right: the arrow shows an implements relationship, and the gateway knows nothing about the mapper.",
+    "This reverses the arrow; calling through an interface does not make the interface name its implementation.",
+    "A closed arrowhead marks implements or inheritance, and every arrow is one-way.",
+    "The arrow itself shows the mapper's source naming the gateway across the component line."
+   ],
+   "rule": "An arrow points from the class whose source names the other.",
+   "media": [
+    {
+     "id": "fig/8-2",
+     "alt": "Class diagram grouped into double-lined components. Controller holds FinancialReportController and FinancialReportPresenter (interface). Interactor holds Request, Requester (interface), Response, FinancialReportGenerator, FinancialDataGateway (interface) and Financial entities. Database holds FinancialDataMapper and FinancialDatabase. Presenter and view components lie below. Open arrowheads mean uses; closed mean implements. FinancialDataMapper has a closed arrowhead to FinancialDataGateway. Each double line is crossed in one direction only.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-protection-hierarchy-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "A Thought Experiment",
+   "concept": "solid-protection-hierarchy",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, a change is made inside Screen Presenter. Which components could that change affect?",
+   "options": [
+    "Financial Report Controller and Financial Report Interactor, which sit above it",
+    "Web View and PDF View, since both views belong to the presenters",
+    "Web View only, since only it has an arrow pointing at Screen Presenter",
+    "Every component, because all of them are linked through the Controller"
+   ],
+   "answer": 2,
+   "explain": "Changes travel from a component to those that depend on it. Only Web View depends on Screen Presenter, while the Controller and Interactor are protected from it.",
+   "optionExplain": [
+    "The arrows point toward them, so they are the components protected from the presenter.",
+    "PDF View depends on Print Presenter, not on Screen Presenter.",
+    "Right: a change reaches only the components whose arrows point at the changed one.",
+    "Being linked through the Controller does not matter; arrows run one way and the others do not depend on it."
+   ],
+   "rule": "A change flows against the arrows, to the components that depend on the changed one.",
+   "media": [
+    {
+     "id": "fig/8-3",
+     "alt": "Component diagram of six boxes. Web View points up to Screen Presenter, and PDF View points up to Print Presenter. Both presenters point up to Financial Report Controller. The controller points right to Financial Report Interactor. Financial Database points up to the Interactor.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-isp-language-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "ISP and Language",
+   "concept": "solid-isp-language",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "match",
+   "q": "In the diagram, match each element to what its source depends on.",
+   "pairs": [
+    [
+     "User1",
+     "Only the interface U1Ops"
+    ],
+    [
+     "User3",
+     "Only the interface U3Ops"
+    ],
+    [
+     "OPS",
+     "All three interfaces, which it implements"
+    ],
+    [
+     "U2Ops",
+     "No class; it declares op2 only"
+    ]
+   ],
+   "explain": "Each user points only at its own interface. The closed arrows run from OPS up to the interfaces, so OPS depends on them and no user depends on OPS.",
+   "rule": "Users depend on their interface; the class depends on all of them.",
+   "media": [
+    {
+     "id": "fig/10-2",
+     "alt": "Users User1, User2 and User3 in a row, each with an arrow down to its own interface box: U1Ops with op1, U2Ops with op2 and U3Ops with op3. Beneath them, a box OPS listing op1, op2 and op3 has closed-head arrows pointing up to all three interfaces.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "solid-factories-6",
+   "unit": "Part III",
+   "unitTitle": "Design principles (SOLID)",
+   "section": "Factories",
+   "concept": "solid-factories",
+   "rung": 6,
+   "role": "spot-error",
+   "kind": "mcq",
+   "q": "In the diagram, which added arrow would break the rule that all source code dependencies cross the curved line toward the abstract side?",
+   "options": [
+    "ServiceFactoryImpl to ServiceFactory, an implements arrow pointing upward",
+    "Application to ConcreteImpl, an arrow from above the line to below it",
+    "ConcreteImpl to Service, an inheritance arrow pointing up at the interface",
+    "Application to ServiceFactory, a using arrow that stays above the line"
+   ],
+   "answer": 1,
+   "explain": "The abstract side holds Application, Service and ServiceFactory; the concrete side holds ConcreteImpl and ServiceFactoryImpl. A dependency from Application to ConcreteImpl would point toward the concrete side.",
+   "optionExplain": [
+    "The diagram already has this arrow, and it crosses the line toward the abstract side.",
+    "Right: Application would name ConcreteImpl, pointing from the abstract side to the concrete side.",
+    "The diagram already has this arrow, and it also points toward the abstract side.",
+    "It stays on the abstract side, so it crosses no line at all."
+   ],
+   "rule": "Every dependency that crosses the line points toward the abstract side.",
+   "media": [
+    {
+     "id": "fig/11-1",
+     "alt": "Application (top left) has arrows to Service, an interface at top right, and down to ServiceFactory, an interface with makeSvc. A dashed arrow runs from ServiceFactory to Service. A curved line separates these three from ConcreteImpl and ServiceFactoryImpl below. ConcreteImpl has a closed arrow up to Service; ServiceFactoryImpl has a closed arrow up to ServiceFactory and a creates arrow to ConcreteImpl.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-tension-forces-6",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Tension Diagram for Component Cohesion",
+   "concept": "components-tension-forces",
+   "rung": 6,
+   "role": "apply",
+   "kind": "mcq",
+   "q": "In the diagram, each edge names the cost of abandoning the opposite vertex. What cost does an architect pay for abandoning the REP?",
+   "options": [
+    "Too many components change whenever a simple change is made",
+    "Too many unneeded releases are generated for every change",
+    "Components become hard to reuse, as the edge between CCP and CRP says",
+    "Too many classes are pulled into each component by default"
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "That is the left edge, between REP and CRP. It sits opposite the CCP, so it is the cost of abandoning the CCP.",
+    "That is the top edge, between REP and CCP. It sits opposite the CRP, so it is the cost of abandoning the CRP.",
+    "Right: the edge between CCP and CRP is labelled Hard to reuse, and it lies opposite the REP vertex.",
+    "The diagram has no such edge label; its three edges name changes, releases and reuse."
+   ],
+   "explain": "Each edge describes the cost of abandoning the principle on the opposite vertex. The edge joining CCP and CRP is opposite the REP, and it reads Hard to reuse.",
+   "rule": "An edge of the tension triangle is the price of dropping the opposite principle.",
+   "media": [
+    {
+     "id": "fig/13-1",
+     "alt": "A triangle with three circles. REP, group for reusers, is at top left. CCP, group for maintenance, is at top right. CRP, split to avoid unneeded releases, is at the bottom. The top edge REP-CCP reads Too many unneeded releases. The left edge REP-CRP reads Too many components change. The right edge CCP-CRP reads Hard to reuse. The centre asks where in this space a component falls.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-dag-reading-6",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Acyclic Dependencies Principle",
+   "concept": "components-dag-reading",
+   "rung": 6,
+   "role": "apply",
+   "kind": "multi",
+   "q": "In the diagram, a team wants to test Presenters alone. Which other components must the test build include? Select all that apply.",
+   "options": [
+    "View",
+    "Interactors",
+    "Database",
+    "Entities",
+    "Authorizer"
+   ],
+   "answers": [
+    1,
+    3
+   ],
+   "optionExplain": [
+    "View depends on Presenters, not the other way round, so a Presenters test does not need it.",
+    "Right: Presenters points at Interactors, so the test needs Interactors.",
+    "Database points at Interactors and Entities, but nothing Presenters uses points to Database.",
+    "Right: Interactors points at Entities, so following the arrows from Presenters reaches Entities.",
+    "Authorizer points at Interactors, but Presenters does not depend on it."
+   ],
+   "explain": "A test needs the component plus everything it depends on, directly or through others. From Presenters the arrows lead to Interactors and then to Entities.",
+   "rule": "Testing a component needs only what it depends on, followed along the arrows.",
+   "media": [
+    {
+     "id": "fig/14-1",
+     "alt": "A component diagram of boxes with arrows. Main points to Database, Presenters, View, Interactors, Controllers and Authorizer. View points to Presenters. Presenters, Controllers, Authorizer and Database each point to Interactors. Interactors points to Entities. Database also points to Entities. No arrow leads back to its start.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-cycle-effect-6",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Acyclic Dependencies Principle",
+   "concept": "components-cycle-effect",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, a bold arrow from Entities to Authorizer closes a loop. Which components in effect become one large component?",
+   "options": [
+    "Entities, Authorizer and Interactors, all on the loop",
+    "Entities and Authorizer only, the two ends of the new arrow",
+    "Entities, Interactors and Database, all below the new arrow",
+    "Every component, because Main points at all of the others"
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: Entities to Authorizer to Interactors and back to Entities is the loop, so these three must share exact releases.",
+    "The arrow joins these two, but Authorizer already points at Interactors, which points at Entities, so Interactors is on the loop too.",
+    "Database points into Entities and Interactors but nothing on the loop points at Database, so it is outside the loop.",
+    "Main points at others without anything pointing back at it, so it is not on any loop."
+   ],
+   "explain": "The book says Entities, Authorizer and Interactors have in effect become one large component. Components off the loop, such as Database, are only harder to release.",
+   "rule": "Components on a dependency loop behave as one component.",
+   "media": [
+    {
+     "id": "fig/14-2",
+     "alt": "The same component diagram as the typical one: Main points to six components, View to Presenters, Presenters, Controllers, Authorizer and Database to Interactors, Interactors to Entities, Database to Entities. A new bold arrow now runs from Entities to Authorizer, so Entities, Authorizer and Interactors form a loop.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-break-cycles-6",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Acyclic Dependencies Principle",
+   "concept": "components-break-cycles",
+   "rung": 6,
+   "role": "apply",
+   "kind": "fill",
+   "q": "In the lower panel of the diagram, the interface Permissions sits in the ____ component, and the Permissions class in Authorizer implements it.",
+   "accept": [
+    "Entities",
+    "entities",
+    "the Entities"
+   ],
+   "explain": "Putting the interface where User can reach it makes the Authorizer class point at Entities instead. That inverts the dependency and breaks the cycle.",
+   "rule": "Place the interface with its user, so the implementer depends on it.",
+   "media": [
+    {
+     "id": "fig/14-3",
+     "alt": "Two panels split by a thick line. Top: a component Entities holds a class User, with an arrow to a class Permissions inside a component Authorizer. Bottom: Entities holds User and an interface Permissions marked I; User points to that interface, and Permissions in Authorizer has an open-headed arrow to the interface.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-break-cycles-7",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Acyclic Dependencies Principle",
+   "concept": "components-break-cycles",
+   "rung": 7,
+   "role": "discriminate",
+   "kind": "tf",
+   "q": "True or false: In the diagram, the new Permissions component has no outgoing arrows, so it cannot be part of a dependency cycle.",
+   "answer": true,
+   "explain": "A cycle means following the arrows leads back to the start. A component with no outgoing dependencies has no arrow to follow out of it, so it cannot be on a loop.",
+   "rule": "A component that depends on nothing cannot sit inside a cycle.",
+   "media": [
+    {
+     "id": "fig/14-4",
+     "alt": "The component diagram with a new bold component named Permissions at the bottom right. Authorizer has a bold arrow down to Permissions, and Entities has a bold arrow to Permissions. Permissions has no outgoing arrow. The other arrows are as before, and no arrow runs between Entities and Authorizer.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-stability-metrics-7",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Stable Dependencies Principle",
+   "concept": "components-stability-metrics",
+   "rung": 7,
+   "role": "apply",
+   "kind": "mcq",
+   "q": "In the diagram, what is the instability I of Cc? Count classes outside Cc, not components.",
+   "options": [
+    "1/3: two components use Cc and one is used by it",
+    "3/4: fan-in divided by the total of both counts",
+    "0: Cc has dependents, so it is maximally stable",
+    "1/4: one class outside is used, out of four dependencies in all"
+   ],
+   "answer": 3,
+   "optionExplain": [
+    "This counts components (Ca and Cb in, Cd out) instead of the classes that depend on Cc.",
+    "This divides fan-in by the total, but I is fan-out over the total.",
+    "I is 0 only when nothing leaves the component; u points at v in Cd, so Cc has a fan-out.",
+    "Right: q, r and s depend on classes in Cc (fan-in 3) and u depends on v (fan-out 1), so I = 1/(3+1)."
+   ],
+   "explain": "Fan-in counts classes outside Cc that depend on it: q, r and s, so 3. Fan-out is the one class u depends on, v. I = 1 / (3 + 1) = 1/4.",
+   "rule": "I = Fan-out / (Fan-in + Fan-out), counted in classes.",
+   "media": [
+    {
+     "id": "fig/14-7",
+     "alt": "Four components. Ca holds classes q and r. Cb holds class s. Cc holds classes t and u. Cd holds class v. Arrows run q to t, r to u, s to u, and u to v, the last one into Cd.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-sdp-rule-7",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Stable Dependencies Principle",
+   "concept": "components-sdp-rule",
+   "rung": 7,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, Flexible must now change. According to the book, whose work does that change force us to deal with?",
+   "options": [
+    "Only Flexible, because it sits at the bottom of the diagram",
+    "Only Stable, because it holds the one arrow into Flexible",
+    "Stable and the two unstable components that depend on Stable",
+    "Nobody, since Flexible was designed to be easy to change"
+   ],
+   "answer": 2,
+   "optionExplain": [
+    "Stable depends on Flexible, so a change in Flexible cannot stay local to it.",
+    "Stable is touched first, but its own dependents then have to cope with the change as well.",
+    "Right: a change to Flexible forces us to deal with Stable and all its dependents, here the two unstable components.",
+    "The dependency from Stable has made Flexible hard to change, though not a line of it has changed."
+   ],
+   "explain": "The book says a change to Flexible will force us to deal with Stable and all its dependents. The two components above Stable depend on it.",
+   "rule": "A volatile component depended on by a stable one is hard to change.",
+   "media": [
+    {
+     "id": "fig/14-9",
+     "alt": "Two components labelled instable, each marked I=1, sit at the top with arrows pointing down to a component labelled Stable. A further arrow runs from Stable down to a component labelled Flexible at the bottom.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-sdp-fix-6",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Stable Dependencies Principle",
+   "concept": "components-sdp-fix",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "mcq",
+   "q": "In the lower diagram, the arrow from c in Flexible points at the interface us in UServer. What does that arrow mean?",
+   "options": [
+    "Stable now depends on Flexible, only through the interface",
+    "Flexible depends on UServer, because c implements the interface us",
+    "UServer depends on Flexible, because the interface needs c to run",
+    "Flexible is now stable, because it sits next to a stable component"
+   ],
+   "answer": 1,
+   "optionExplain": [
+    "The diagram has no arrow between Stable and Flexible; u points at us, and c points at us.",
+    "Right: c implements us, so Flexible depends on UServer and the old arrow from Stable to Flexible is gone.",
+    "An interface knows nothing of its implementers; the arrow runs from the implementer to the interface.",
+    "Stability comes from dependents and dependencies, not from nearness; Flexible keeps I = 1."
+   ],
+   "explain": "Both Stable and Flexible now depend on UServer. The book says this breaks the dependency of Stable on Flexible while Flexible keeps its instability.",
+   "rule": "An implementer depends on the interface it implements.",
+   "media": [
+    {
+     "id": "fig/14-11",
+     "alt": "Stable holds class u, with an arrow to an interface us, marked I, in a component UServer to its right. Below UServer, the component Flexible holds class c, with an open-headed arrow pointing up to the interface us. No arrow joins Stable and Flexible.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-main-sequence-6",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Stable Abstractions Principle",
+   "concept": "components-main-sequence",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "sort",
+   "q": "Using the diagram's two zones of exclusion, sort each description by the zone it belongs to.",
+   "groups": [
+    "Zone of Pain",
+    "Zone of Uselessness"
+   ],
+   "items": [
+    {
+     "t": "Stable and concrete, with many dependents",
+     "g": 0
+    },
+    {
+     "t": "Rigid: cannot be extended and hard to change",
+     "g": 0
+    },
+    {
+     "t": "A position near (0, 0) on the graph",
+     "g": 0
+    },
+    {
+     "t": "Maximally abstract, yet with no dependents",
+     "g": 1
+    },
+    {
+     "t": "Leftover abstract classes no one implemented",
+     "g": 1
+    },
+    {
+     "t": "A position near (1, 1) on the graph",
+     "g": 1
+    }
+   ],
+   "explain": "Near (0, 0) a component is stable but concrete, so it is rigid. Near (1, 1) it is abstract with no dependents, so it is useless.",
+   "rule": "Zone of Pain: stable and concrete. Zone of Uselessness: abstract and unused.",
+   "media": [
+    {
+     "id": "fig/14-13",
+     "alt": "The A against I graph, from (0,0) at lower left to (1,1) at upper right, with a dashed square frame. A diagonal line labelled The Main Sequence joins (0,1) to (1,0). A quarter-circle near (0,0) is labelled Zone of Pain. A quarter-circle near (1,1) is labelled Zone of Uselessness.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-distance-metric-6",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Stable Abstractions Principle",
+   "concept": "components-distance-metric",
+   "rung": 6,
+   "role": "apply",
+   "kind": "fill",
+   "q": "In the scatterplot, a dot beyond the dashed line marked Z = 1 is more than one ____ from the mean.",
+   "accept": [
+    "standard deviation",
+    "standard deviations",
+    "std deviation"
+   ],
+   "explain": "The book says some components are more than one standard deviation (Z = 1) from the mean. These aberrant components are worth examining more closely.",
+   "rule": "Z counts standard deviations of the distance from the mean.",
+   "media": [
+    {
+     "id": "fig/14-14",
+     "alt": "A scatterplot with A vertical and I horizontal, both from 0 to 1. A solid diagonal line, the Main Sequence, runs from top left to bottom right. Dashed lines parallel to it are labelled Z=1 and Z=2 on each side. Most dots lie on or near the line; a few lie beyond the Z=1 lines.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "components-distance-metric-7",
+   "unit": "Part IV",
+   "unitTitle": "Component principles",
+   "section": "The Stable Abstractions Principle",
+   "concept": "components-distance-metric",
+   "rung": 7,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, Payroll's D climbs over the releases and crosses the dashed line at R2.1. What does the book take this to mean?",
+   "options": [
+    "Strange dependencies have crept in, so it is worth finding out why",
+    "Payroll has grown more abstract, so it may be released as it is",
+    "Payroll became more stable, so it is now safe to change often",
+    "The dashed line is a rule that blocks release R2.1 outright"
+   ],
+   "answer": 0,
+   "optionExplain": [
+    "Right: the book says strange dependencies have been creeping in, and the component is far from the main sequence.",
+    "A rise in D says nothing of more abstractness; D measures distance from the main sequence.",
+    "D is not stability; a higher D means farther from the main sequence, not safer.",
+    "The line is a control threshold that prompts investigation; the book does not describe a release block."
+   ],
+   "explain": "The book reads the rise as strange dependencies creeping into Payroll. R2.1 exceeds the 0.1 control limit, so it is worth finding out why.",
+   "rule": "A component whose D drifts upward is worth reexamining.",
+   "media": [
+    {
+     "id": "fig/14-15",
+     "alt": "A graph titled Package: Payroll. The vertical axis is D from 0 to 0.2, with a dashed line at 0.1. The horizontal axis lists releases R1.0, R1.1, R1.2, R2.0 and R2.1. Dots rise from about 0.03 at R1.0 to about 0.075 at R2.0, and reach about 0.125 at R2.1, above the dashed line.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch1-lines-matter-6",
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "section": "Which Lines Do You Draw, and When Do You Draw Them?",
+   "concept": "arch1-lines-matter",
+   "rung": 6,
+   "role": "apply",
+   "kind": "multi",
+   "q": "In the diagram, the team replaces the database product with another vendor's. Which boxes are expected to change? Select all that apply.",
+   "options": [
+    "Business Rules, which call the interface to load and save data",
+    "Database Interface, which the rules use to fetch and store data",
+    "Database Access, which turns the rules' calls into the new product's query language",
+    "Database, the product itself, which is swapped for the new one"
+   ],
+   "answers": [
+    2,
+    3
+   ],
+   "explain": "The rules know only the interface, so they and the interface stay put. The access code that translates calls into the query language, and the database itself, sit on the replaceable side.",
+   "optionExplain": [
+    "Tempting because the rules use the data, but they see only the interface and not the product, so they do not change.",
+    "Tempting because it is the contact point, but it belongs to the rules' side and states what the rules need, not how the product works.",
+    "Right: this code knows the query language of the product, so a new product needs new access code.",
+    "Right: the database is the tool being swapped."
+   ],
+   "rule": "Put the database behind an interface so that replacing it touches only the database side.",
+   "media": [
+    {
+     "id": "fig/17-1",
+     "alt": "Class diagram with four boxes. Business Rules at the top has a plain arrow down to Database Interface, which carries an I tag. Below it, Database Access has a hollow-triangle arrow pointing up to Database Interface. Database Access also has a plain arrow pointing right to a box named Database.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch1-arrow-direction-6",
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "section": "Which Lines Do You Draw, and When Do You Draw Them?",
+   "concept": "arch1-arrow-direction",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, the arrow runs from Database to Business Rules across the line. Which change could force edits in the other component?",
+   "options": [
+    "A new query language in the Database component, which the rules would then have to be adapted to",
+    "A renamed function in Business Rules that the Database component's code calls",
+    "A new table schema in the Database component, which the rules read directly",
+    "Either change, since a boundary line only marks who owns the code"
+   ],
+   "answer": 1,
+   "explain": "The arrow means the Database component knows the Business Rules, and the rules do not know it. A change on the rules' side can reach the database code, but not the other way round.",
+   "optionExplain": [
+    "Plausible if the rules used the query language, but they do not know the Database exists, so its language cannot reach them.",
+    "Right: the Database code calls into the rules' side, so a rename there can break it.",
+    "Plausible for people taught that the database embodies the rules, but the rules need not know the schema.",
+    "Plausible because lines do mark ownership, yet the arrow's direction decides who is exposed to whom."
+   ],
+   "rule": "A change flows against the arrow: the component the arrow points to can break the one it leaves.",
+   "media": [
+    {
+     "id": "fig/17-3",
+     "alt": "Two component boxes, each with two small tabs on its left edge: Business Rules at top left and Database at lower right. A thick wavy line runs between them. A single arrow leaves Database, crosses the line, and ends with its arrowhead at Business Rules.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch1-plugin-architecture-6",
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "section": "Plugin Architecture",
+   "concept": "arch1-plugin-architecture",
+   "rung": 6,
+   "role": "predict",
+   "kind": "tf",
+   "q": "True or false: In the diagram, adding a third plugin component, such as a report printer, needs a new arrow from Business Rules toward that plugin.",
+   "answer": false,
+   "explain": "Each plugin, DB and GUI alike, has its own arrow pointing at Business Rules, and no arrow leaves the core. A new plugin would follow the same pattern, so the core would not change.",
+   "rule": "Every plugin points at the core; the core points at none of them.",
+   "media": [
+    {
+     "id": "fig/17-5",
+     "alt": "Three component boxes: Business Rules at left centre, DB at top right and GUI at the bottom. One thick curved line separates DB from Business Rules and another separates GUI from Business Rules. An arrow runs from DB to Business Rules and another from GUI to Business Rules. No arrow leaves Business Rules.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch1-monolith-crossing-6",
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "section": "Boundary Crossing",
+   "concept": "arch1-monolith-crossing",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "tf",
+   "q": "True or false: In the diagram, the Client calls Service directly, so its source dependency points the same way as the call, toward the higher-level side.",
+   "answer": true,
+   "explain": "With no interface in between, both the runtime call and the compile-time dependency cross the line in one direction, toward the higher-level component. Figure 18.2 shows how an interface reverses the dependency when the call must go the other way.",
+   "rule": "A direct call to a higher-level service needs no inversion, since both dependencies already point toward the higher level.",
+   "media": [
+    {
+     "id": "fig/18-1",
+     "alt": "Class diagram split by a thick double vertical line. Client sits on the left. On the right are Service, with a method + f, and Data, tagged DS. Arrows run from Client to Service and from Client to Data, both crossing the line, and from Service down to Data.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch1-monolith-crossing-7",
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "section": "Boundary Crossing",
+   "concept": "arch1-monolith-crossing",
+   "rung": 7,
+   "role": "apply",
+   "kind": "sort",
+   "q": "In the diagram, all dependencies cross the line toward the higher-level side. Sort each element by the side of the line it sits on.",
+   "groups": [
+    "Higher-level side, where the dependencies point",
+    "Lower-level side"
+   ],
+   "items": [
+    {
+     "t": "Client",
+     "g": 0
+    },
+    {
+     "t": "Service interface",
+     "g": 0
+    },
+    {
+     "t": "Data structure",
+     "g": 0
+    },
+    {
+     "t": "ServiceImpl",
+     "g": 1
+    }
+   ],
+   "explain": "Client, the Service interface and the Data definition are on the calling side. ServiceImpl is on the lower-level side and depends on both the interface and the data.",
+   "rule": "Keep the interface and the data definition on the calling side so that the dependencies point toward the higher level.",
+   "media": [
+    {
+     "id": "fig/18-2",
+     "alt": "A thick double vertical line splits the diagram. On the left are Client, Service (tagged I, with + f) and Data (tagged DS); Client points to Service and to Data. On the right is ServiceImpl with + f. A hollow-triangle arrow runs from ServiceImpl across the line to Service, and a plain arrow from ServiceImpl across the line to Data.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch1-encrypt-example-6",
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "section": "Level",
+   "concept": "arch1-encrypt-example",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "mcq",
+   "q": "In the diagram, how do the dashed source code dependencies relate to the solid data flow?",
+   "options": [
+    "Both dashed lines follow the data flow, running on from Read Char through Translate to Write Char",
+    "Both dashed lines point away from Translate, because Translate supplies the logic to the other two",
+    "At Write Char they follow the data flow, but at Read Char they oppose it; both point at Translate",
+    "At Read Char they follow the data flow, but at Write Char they oppose it; both point at Translate"
+   ],
+   "answer": 3,
+   "explain": "Data runs from Read Char to Translate and on to Write Char, yet both dashed lines end at Translate. At Read Char the two agree, and at Write Char the dependency runs against the data.",
+   "optionExplain": [
+    "Plausible if you assume dependencies follow data, but the book says they do not always point the same way.",
+    "Plausible because Translate feeds data to Write Char, but both dashed lines end at Translate, not leave it.",
+    "Reverses the match: Read Char sends data into Translate, so there the two directions agree.",
+    "Right: the dependencies are coupled to level, not to data flow."
+   ],
+   "rule": "Source code dependencies follow level, not data flow.",
+   "media": [
+    {
+     "id": "fig/19-1",
+     "alt": "Data flow diagram of three ovals: Translate at the top, Read Char at bottom left and Write Char at bottom right, plus a Table box at top right with an arrow into Translate. Solid curved arrows labelled char run from Read Char up to Translate and from Translate down to Write Char. Dashed lines labelled source code dependencies run from Read Char and from Write Char to Translate, arrowheads at Translate.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch1-encrypt-example-7",
+   "unit": "Part V-A",
+   "unitTitle": "Architecture: independence and boundaries",
+   "section": "Level",
+   "concept": "arch1-encrypt-example",
+   "rung": 7,
+   "role": "spot-error",
+   "kind": "multi",
+   "q": "In the diagram, dependencies crossing the dashed border point inward. Which added arrows would break that rule? Select all that apply.",
+   "options": [
+    "From Encrypt to Console Reader, so that Encrypt can call it directly",
+    "From Console Writer to Char Writer, as a class using an interface",
+    "From Char Reader to Console Reader, so the interface can find its implementation",
+    "From Console Reader to Encrypt, so the reader can hand over characters"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "explain": "An arrow from inside the border to a console class would point outward, tying the high-level policy to a device. Arrows from console classes toward the inside keep the rule.",
+   "optionExplain": [
+    "Right: it points outward, so the high-level Encrypt would depend on a low-level device class.",
+    "This arrow already exists in the diagram and points inward, so it keeps the rule.",
+    "Right: the interface would depend on a class outside the border, an outward arrow.",
+    "It crosses the border from outside to inside, so it respects the direction of the rule."
+   ],
+   "rule": "All dependencies crossing the border of the high-level unit point inward.",
+   "media": [
+    {
+     "id": "fig/19-2",
+     "alt": "Class diagram. Encrypt at the top has arrows down to two interface boxes, Char Reader and Char Writer, each tagged I. Below, Console Reader and Console Writer each have a hollow-triangle arrow up to the interface above them. A thick dashed oval encloses Encrypt, Char Reader and Char Writer but not the two console classes.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-use-case-6",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "Use Cases",
+   "concept": "arch2-use-case",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the use case in the diagram, a candidate's credit score is exactly 500. What happens at steps 4 and 5?",
+   "options": [
+    "Denial is activated, because a score equal to the cutoff is not above it",
+    "The Customer is created and Loan Estimation is activated, because only scores under 500 are denied",
+    "The officer must gather the contact details again, because a score of 500 is a limit case",
+    "Nothing is activated until a second credit score is fetched, because 500 is the limit value"
+   ],
+   "answer": 1,
+   "explain": "Step 4 activates Denial only if the score is under 500. At 500 the else branch runs: step 5 creates a Customer and activates Loan Estimation.",
+   "optionExplain": [
+    "Tempting if the cutoff is read as 'above 500', but the card says under 500 is denied, and the text asks for 500 or higher.",
+    "Right: the figure denies only scores under 500, matching the text's rule of 500 or higher.",
+    "The contact details are validated in steps 1 and 2, before the score is fetched; no step repeats them.",
+    "No step in the figure fetches a second score; step 5 is the else branch of step 4."
+   ],
+   "rule": "A use case holds application-specific rules, such as the credit score cutoff that gates the payment estimate.",
+   "media": [
+    {
+     "id": "fig/20-2",
+     "alt": "An index card titled Gather Contact Info for New Loan. Input: name, address, birthdate, driver licence number, SSN. Output: the same information for readback plus a credit score. Primary course: 1 accept and validate name; 2 validate address, birthdate and ID numbers; 3 get credit score; 4 if score is under 500 activate Denial; 5 else create Customer and activate Loan Estimation.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-four-circles-6",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "The Dependency Rule",
+   "concept": "arch2-four-circles",
+   "rung": 6,
+   "role": "apply",
+   "kind": "mcq",
+   "q": "In the diagram, which dependency does the order of the rings forbid?",
+   "options": [
+    "A controller in the interface adapters ring calls a use case class declared in the ring inside it",
+    "Web framework glue code in the outer ring mentions a controller class from the ring inside it",
+    "A presenter in the interface adapters ring implements an interface declared in the use cases ring",
+    "A use case class mentions a gateway class that is declared in the interface adapters ring around it"
+   ],
+   "answer": 3,
+   "explain": "The rings run from Entities outward to Frameworks and Drivers, and source code dependencies point only inward. A use case naming something in the outer interface adapters ring points outward.",
+   "optionExplain": [
+    "Allowed: the controller is in an outer ring and names a class in an inner ring, so the dependency points inward.",
+    "Allowed: the outer ring may name classes in rings inside it; glue code communicates inward.",
+    "Allowed: the presenter, in the outer ring, depends on an interface declared in the inner use cases ring.",
+    "Forbidden: an inner ring may not mention a name declared in an outer ring, so this dependency points outward."
+   ],
+   "rule": "Source code dependencies point only inward, so an inner ring never names something declared in an outer ring.",
+   "media": [
+    {
+     "id": "fig/22-1",
+     "alt": "Four concentric circles titled The Clean Architecture. From the centre outward: Entities (Enterprise Business Rules), Use Cases (Application Business Rules), Controllers, Gateways and Presenters (Interface Adapters), and Web, DB, UI, Devices and External Interfaces (Frameworks and Drivers). Arrows at left point inward to Entities. An inset shows Controller and Presenter beside Use Case Input and Output Ports around a Use Case Interactor, with a Flow of control curve from Controller to Presenter.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-scenario-7",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "A Typical Scenario",
+   "concept": "arch2-scenario",
+   "rung": 7,
+   "role": "discriminate",
+   "kind": "sort",
+   "q": "In the diagram, sort each element by the kind of thing it is, as its tag shows.",
+   "groups": [
+    "Plain data structure",
+    "Interface"
+   ],
+   "items": [
+    {
+     "t": "Input Data",
+     "g": 0
+    },
+    {
+     "t": "Output Data",
+     "g": 0
+    },
+    {
+     "t": "View Model",
+     "g": 0
+    },
+    {
+     "t": "Input Boundary",
+     "g": 1
+    },
+    {
+     "t": "Output Boundary",
+     "g": 1
+    },
+    {
+     "t": "Data Access Interface",
+     "g": 1
+    }
+   ],
+   "explain": "Input Data, Output Data and the ViewModel are plain old Java objects that carry values across the boundaries. The two boundaries and the data access interface are interfaces that the inner side owns and the outer side implements.",
+   "rule": "Plain data structures carry values across boundaries, and interfaces let inner code call outward without naming outer classes.",
+   "media": [
+    {
+     "id": "fig/22-2",
+     "alt": "A box diagram with boundary lines. Controller points to Input Data and Input Boundary. Presenter points to Output Boundary, Output Data and View Model. Use Case Interactor points to Input Boundary, Output Boundary, Input Data, Output Data, Entities and Data Access Interface. Input Data, Output Data and View Model are tagged DS. Input Boundary, Output Boundary and Data Access Interface are tagged I. View points to View Model. Data Access implements the Data Access Interface and points to Database.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-one-dimensional-6",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "One-Dimensional Boundaries",
+   "concept": "arch2-one-dimensional",
+   "rung": 6,
+   "role": "spot-error",
+   "kind": "fill",
+   "q": "In the diagram, the dashed red arrow that bypasses the interface runs from ServiceImpl to the ____.",
+   "accept": [
+    "Client",
+    "client"
+   ],
+   "explain": "The author calls this the nasty dotted arrow, a backchannel. Without reciprocal interfaces, only the diligence and discipline of the developers keeps the implementation from reaching back to the client.",
+   "rule": "A Strategy-only boundary leaves backchannels such as an implementation reaching back to the client to developer discipline.",
+   "media": [
+    {
+     "id": "fig/24-1",
+     "alt": "Three boxes. Client has a solid arrow to Service Boundary, tagged as an interface. Service Impl has a hollow-headed arrow up to Service Boundary. A dashed red arrow runs from Service Impl back to Client. A wavy red line passes between Client and the other two boxes.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-wumpus-6",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "Hunt the Wumpus",
+   "concept": "arch2-wumpus",
+   "rung": 6,
+   "role": "apply",
+   "kind": "tf",
+   "q": "True or false: In the diagram, Game Rules has no arrow leaving it, so it names none of the UI or storage components.",
+   "answer": true,
+   "explain": "Every arrow points at Game Rules, and arrows record source code dependencies. The rules therefore depend on neither language nor storage, which matches the author's wish that the rules know nothing of the kind of data storage.",
+   "rule": "Arrows pointing at the rules show that UI and storage depend on the rules, and not the other way round.",
+   "media": [
+    {
+     "id": "fig/25-2",
+     "alt": "Game Rules in the centre. English UI and Spanish UI, on the left, and Flash Data and Cloud Data, on the right, each have an arrow pointing at Game Rules. Game Rules has no arrow leaving it.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-streams-6",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "Crossing the Streams",
+   "concept": "arch2-streams",
+   "rung": 6,
+   "role": "predict",
+   "kind": "order",
+   "q": "In the simplified diagram, a player types a move and the game saves it. Put the components in the order the information reaches them.",
+   "items": [
+    "Text Delivery",
+    "Language",
+    "Game Rules",
+    "Data Storage"
+   ],
+   "explain": "Input comes in through Text Delivery and rises through Language into Game Rules, which then sends data down to Data Storage. The arrows all point up because they show dependencies, not this flow of information.",
+   "rule": "Dependency arrows point up toward the rules even though information also flows down from the rules to storage.",
+   "media": [
+    {
+     "id": "fig/25-4",
+     "alt": "Game Rules at the top as a solid box. Below left, dashed Language has an arrow up to Game Rules, and dashed Text Delivery has an arrow up to Language. Below right, dashed Data Storage has an arrow up to Game Rules. A vertical dashed red line runs between the left and right groups.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-splitting-streams-6",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "Splitting the Streams",
+   "concept": "arch2-splitting-streams",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "multi",
+   "q": "In the diagram, which components have an arrow pointing at Move Management? Select all that apply.",
+   "options": [
+    "Language",
+    "Data Storage",
+    "Network",
+    "Player Management"
+   ],
+   "answers": [
+    0,
+    1,
+    2
+   ],
+   "explain": "Language, Data Storage and Network each have an arrow up to Move Management, so each depends on it. Move Management itself has its arrow up to Player Management, the higher-level policy.",
+   "optionExplain": [
+    "Right: the arrow from Language points up to Move Management.",
+    "Right: the arrow from Data Storage points up to Move Management.",
+    "Right: the arrow from Network points up to Move Management.",
+    "The arrow runs the other way, from Move Management up to Player Management, the higher-level policy."
+   ],
+   "rule": "Arrows lead toward the higher-level policy, so lower-level components depend on the policy above them.",
+   "media": [
+    {
+     "id": "fig/25-6",
+     "alt": "Dashed box Player Management at the top. Below it, solid box Move Management has an arrow up to Player Management. Three dashed boxes, Language, Data Storage and Network, each have an arrow up to Move Management. Two vertical dashed red lines separate those three boxes.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch2-splitting-streams-7",
+   "unit": "Part V-B",
+   "unitTitle": "Architecture: business rules to layers",
+   "section": "Splitting the Streams",
+   "concept": "arch2-splitting-streams",
+   "rung": 7,
+   "role": "spot-error",
+   "kind": "tf",
+   "q": "True or false: In the diagram, Move Management has an arrow to a Network box, so its source code names network code directly.",
+   "answer": false,
+   "explain": "The only arrow from Move Management points to Player Management. The Network boxes sit behind Player Mgt. Proxy and Player Mgt. Imp., and their arrows point up at those boxes, so network detail stays on the far side of the boundary.",
+   "rule": "A full boundary keeps network detail behind the API, so the policy on the near side does not name it.",
+   "media": [
+    {
+     "id": "fig/25-7",
+     "alt": "Dashed Player Management at the top centre. Left: dashed Network points to solid Player Mgt. Imp., which points to Player Management. Centre: dashed Network points to solid Player Mgt. Proxy, which points to Player Management. A yellow zigzag joins the two Network boxes. Right: solid Move Management points to Player Management; dashed Language and Data Storage point up to Move Management.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch3-kitty-problem-6",
+   "unit": "Part V-C",
+   "unitTitle": "Architecture: main, services and tests",
+   "section": "The Kitty Problem",
+   "concept": "arch3-kitty-problem",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, a new field is added to the Candidate Taxis record that the Finder fills in and the Selector reads. What must change?",
+   "options": [
+    "Only TaxiFinder, because it is the one service that writes the record",
+    "Nothing in the services, because separate processes cannot see each other's variables",
+    "Both TaxiFinder and TaxiSelector, which must also agree on what the field means",
+    "All five services, because every box in the diagram touches the record"
+   ],
+   "answer": 2,
+   "explain": "The author says every service that operates on a new field in a shared record must change, and the services must agree on its interpretation. TaxiUI and the suppliers do not operate on the field.",
+   "optionExplain": [
+    "Tempting because the Finder creates the record, but the Selector reads the field and must handle it too.",
+    "Separate processes hide variables, but the services stay strongly coupled by the data they share.",
+    "Right: both services operate on the field, so both change and must share its meaning.",
+    "Too broad: the author's rule covers services that operate on the new field, not every service in the chain."
+   ],
+   "rule": "Services that share a data record are coupled through it, however separate their processes are.",
+   "media": [
+    {
+     "id": "fig/27-1",
+     "alt": "Boxes joined by arrows. Taxi UI points to Taxi Finder and to Taxi Selector. Taxi Finder points to three stacked supplier boxes, Taxi Supplier1, 2 and 3, and to a Candidate Taxis record, which points to Taxi Selector. Taxi Selector points to Taxi Dispatcher, which also points to the three suppliers.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch3-objects-rescue-6",
+   "unit": "Part V-C",
+   "unitTitle": "Architecture: main, services and tests",
+   "section": "Objects to the Rescue",
+   "concept": "arch3-objects-rescue",
+   "rung": 6,
+   "role": "spot-error",
+   "kind": "tf",
+   "q": "True or false: In the diagram, the abstract Taxi Selector depends on the Kittens component, so adding kittens means editing it.",
+   "answer": false,
+   "explain": "The arrows run from the classes in Rides and Kittens up to the abstract Taxi Selector, so the Kittens component depends on it and the abstraction does not change. This follows the Dependency Rule.",
+   "rule": "Feature components depend on the abstractions; the abstractions never depend on the features.",
+   "media": [
+    {
+     "id": "fig/27-2",
+     "alt": "Abstract boxes marked A: Taxi Finder, Taxi Selector, Taxi Dispatcher and Taxi Suppliers. Taxi UI points to Finder, Selector and a Component Factories box. Below a boundary, two components named Rides and Kittens each hold stacked classes with hollow-head arrows up to the abstract boxes. Factories point to both components.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch3-component-based-services-6",
+   "unit": "Part V-C",
+   "unitTitle": "Architecture: main, services and tests",
+   "section": "Component-Based Services",
+   "concept": "arch3-component-based-services",
+   "rung": 6,
+   "role": "apply",
+   "kind": "mcq",
+   "q": "In the diagram, a new feature must affect finding, selecting and dispatching. Following the structure drawn, where does its code go?",
+   "options": [
+    "In new derivative classes in their own component, extending the existing Finder, Selector and Dispatcher, with the services' code untouched",
+    "In edits to each of the three existing services, redeployed together by the separate teams that own those services",
+    "In a new fourth service placed between Taxi Selector and Taxi Dispatcher, which would then own the whole feature end to end",
+    "In the Taxi UI service, which would call each supplier directly and so bypass the finding and selecting services entirely"
+   ],
+   "answer": 0,
+   "explain": "The diagram shows each service with its own internal component design: Ride and Kitty derivatives extend the base classes in their own components. New features arrive as new derivative classes rather than edits.",
+   "optionExplain": [
+    "Right: the feature is added as derivative classes in a component, in line with the Open-Closed Principle.",
+    "This is the coupled design of the first diagram, where every service must change together.",
+    "A new service would still be a functional slice, and the feature cuts across all the existing ones.",
+    "The UI would take over the services' behavior, which defeats the structure the diagram shows."
+   ],
+   "rule": "Add features to a service as derivative classes in new components.",
+   "media": [
+    {
+     "id": "fig/27-3",
+     "alt": "Taxi UI points to Taxi Finder and Taxi Selector; Finder points to Candidate Taxis and to three Taxi Supplier boxes; Selector points to Taxi Dispatcher, which points to the suppliers. Under Finder, Selector and Dispatcher sit Ride and Kitty versions with hollow-head arrows up. Stacks Ride Supplier and Kitty Supplier point up to the suppliers.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch3-boundaries-through-services-6",
+   "unit": "Part V-C",
+   "unitTitle": "Architecture: main, services and tests",
+   "section": "Cross-Cutting Concerns",
+   "concept": "arch3-boundaries-through-services",
+   "rung": 6,
+   "role": "spot-error",
+   "kind": "multi",
+   "q": "In the diagram, a reviewer redraws parts of it. Which changes would break the Dependency Rule?",
+   "options": [
+    "Taxi Selector's code names Kitten Selector directly, with an arrow pointing to it",
+    "Kitten Selector moves into a new component of its own beside Rides, still pointing up",
+    "The arrow from Ride Selector to Taxi Selector is reversed to point at Ride Selector",
+    "A third selector class is added in a new component, with an arrow up to Taxi Selector"
+   ],
+   "answers": [
+    0,
+    2
+   ],
+   "explain": "The diagram has the concrete selectors depending on the abstract Taxi Selector, so dependencies point toward the abstraction. An arrow from the abstraction to a concrete class reverses that direction.",
+   "optionExplain": [
+    "Right: the abstraction would depend on a concrete feature class.",
+    "Moving a class to its own component keeps the arrow pointing up, so the rule still holds.",
+    "Right: reversing the arrow makes the abstraction depend on the detail.",
+    "A new component pointing up to the abstraction follows the drawn pattern."
+   ],
+   "rule": "Component boundaries inside a service keep every dependency pointing toward the abstraction.",
+   "media": [
+    {
+     "id": "fig/27-4",
+     "alt": "A Taxi Selector box marked A sits inside a boundary at the top. Below it, in two separate compartments named Rides and Kittens, are Ride Selector and Kitten Selector. Each has a hollow-head arrow pointing up to Taxi Selector.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch3-layers-and-intermingling-6",
+   "unit": "Part V-C",
+   "unitTitle": "Architecture: main, services and tests",
+   "section": "The Target-Hardware Bottleneck",
+   "concept": "arch3-layers-and-intermingling",
+   "rung": 6,
+   "role": "predict",
+   "kind": "mcq",
+   "q": "In the diagram, a speckled Firmware box sits on Hardware with no separate Software box. What does the missing software layer indicate?",
+   "options": [
+    "The product has no application logic, so only the firmware needs testing against the hardware",
+    "The software has been moved into the hardware, where it can no longer become obsolete",
+    "The software layer has been optimised away, so regression tests need only cover the firmware",
+    "The application logic is mixed into firmware, so it is tied to hardware and cannot live apart"
+   ],
+   "answer": 3,
+   "explain": "The caption calls software and firmware intermingling an anti-pattern. The author's UART example shows logic that could have been software becoming firmware, which resists change and needs full regression tests.",
+   "optionExplain": [
+    "The product still has logic; it is just not separated from the hardware-facing code.",
+    "Software is not protected by being near hardware; the author warns hardware dependencies can destroy it.",
+    "Intermingling makes tests larger, not smaller: minor changes need full regression tests.",
+    "Right: nothing separates the logic from firmware, so the logic is denied a long life as software."
+   ],
+   "rule": "Keep software separate from firmware so the logic can outlive the hardware.",
+   "media": [
+    {
+     "id": "fig/29-2",
+     "alt": "Two stacked boxes. The top box, labelled Firmware, is filled with a dense speckle pattern. The bottom box, labelled Hardware, is plain. There is no separate Software box above the speckled one.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "arch3-hal-6",
+   "unit": "Part V-C",
+   "unitTitle": "Architecture: main, services and tests",
+   "section": "The Target-Hardware Bottleneck",
+   "concept": "arch3-hal",
+   "rung": 6,
+   "role": "apply",
+   "kind": "order",
+   "q": "In the diagram, put the layers in order from top to bottom.",
+   "items": [
+    "Software",
+    "Hardware abstraction layer",
+    "Firmware",
+    "Hardware"
+   ],
+   "explain": "The HAL is the boundary between the software and the firmware, so it sits under the software and above the firmware, which sits above the hardware.",
+   "rule": "The HAL is the boundary between software and firmware.",
+   "media": [
+    {
+     "id": "fig/29-4",
+     "alt": "Four stacked boxes, top to bottom: Software, a thin empty band, Firmware, Hardware. A handwritten label HAL with a curved arrow points to the thin band between Software and Firmware.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "details-component-partition-6",
+   "unit": "Part VI",
+   "unitTitle": "Details and case study",
+   "section": "Component Architecture",
+   "concept": "details-component-partition",
+   "rung": 6,
+   "role": "apply",
+   "kind": "order",
+   "q": "In the diagram, control flows from the right-hand column to the left. Put the Admin components in the order a request passes through them.",
+   "items": [
+    "Admin Controllers",
+    "Admin Interactors",
+    "Admin Presenters",
+    "Admin Views"
+   ],
+   "explain": "The author says input occurs at the controllers, the interactors process it into a result, the presenters format the result, and the views display it. In the drawing that is right to left.",
+   "rule": "Control flows from controllers through interactors and presenters to views, while source dependencies mostly point toward the interactors.",
+   "media": [
+    {
+     "id": "fig/33-2",
+     "alt": "Component diagram in four columns, left to right: Views, Presenters, Interactors, Controllers, separated by vertical double lines. Rows are Admin, Author, Purchaser and Viewer, each with its own component in every column. Catalog View and Catalog Presenter sit beside the Purchaser and Viewer rows. Arrows link views to presenters, presenters to interactors, and controllers to interactors. Below a horizontal double line, Revenue Gateways and Data Gateways point up to interactors, and Data Gateways points to Database (Datomic).",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "details-package-by-layer-6",
+   "unit": "Part VI",
+   "unitTitle": "Details and case study",
+   "section": "Package by Layer",
+   "concept": "details-package-by-layer",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "multi",
+   "q": "In the diagram, which arrows cross a package boundary? Select all that apply.",
+   "options": [
+    "OrdersController uses OrdersService",
+    "OrdersServiceImpl uses OrdersRepository",
+    "OrdersServiceImpl implements OrdersService",
+    "JdbcOrdersRepository implements OrdersRepository",
+    "OrdersController uses OrdersRepository"
+   ],
+   "answers": [
+    0,
+    1
+   ],
+   "explain": "The controller reaches into the service package and the service implementation reaches into the data package. Each implementation arrow stays inside its own package, and the controller has no arrow to the repository.",
+   "optionExplain": [
+    "Correct: web depends on service, so the interface must be visible outside its package.",
+    "Correct: service depends on data, so OrdersRepository must be visible outside its package.",
+    "Tempting because it is an arrow, but both types sit in the service package, so it crosses nothing.",
+    "Tempting, but the implementation and its interface share the data package, so no boundary is crossed.",
+    "This arrow does not exist in a strict layered drawing; the controller only reaches the service."
+   ],
+   "rule": "In package by layer, each cross-package dependency forces the target type to be public.",
+   "media": [
+    {
+     "id": "fig/34-1",
+     "alt": "UML diagram of three stacked packages. Top, com.mycompany.myapp.web, holds OrdersController. Middle, com.mycompany.myapp.service, holds interface OrdersService and OrdersServiceImpl, which implements it. Bottom, com.mycompany.myapp.data, holds interface OrdersRepository and JdbcOrdersRepository, which implements it. Dashed uses arrows run down from OrdersController to OrdersService and from OrdersServiceImpl to OrdersRepository.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "details-ports-and-adapters-6",
+   "unit": "Part VI",
+   "unitTitle": "Details and case study",
+   "section": "Ports and Adapters",
+   "concept": "details-ports-and-adapters",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "mcq",
+   "q": "In the diagram, OrdersServiceImpl has no arrow into the database package. What makes that possible?",
+   "options": [
+    "The database package is nested inside the domain package, so the service reaches it implicitly",
+    "OrdersServiceImpl finds JdbcOrdersRepository by reflection, so no arrow needs to be drawn",
+    "The Orders interface lives in the domain package, and the JDBC class in the database package points at it",
+    "The web package owns the repository interface and hands an instance to the service at runtime"
+   ],
+   "answer": 2,
+   "explain": "The domain package holds the Orders interface the service uses, and JdbcOrdersRepository in the outside package implements it. Dependencies therefore flow toward the inside.",
+   "optionExplain": [
+    "The packages are drawn side by side as separate boxes, not nested.",
+    "The drawing shows no reflection; the book's dependency arrows are the compile-time relationships.",
+    "Correct: the interface sits with the business code and the persistence class depends on it.",
+    "The controller depends on OrdersService; nothing in the drawing gives the web package a repository interface."
+   ],
+   "rule": "In ports and adapters the outside depends on the inside, so interfaces live with the domain code.",
+   "media": [
+    {
+     "id": "fig/34-4",
+     "alt": "Three stacked packages. Top, com.mycompany.myapp.web, holds OrdersController. Middle, com.mycompany.myapp.domain, holds interface OrdersService, OrdersServiceImpl and interface Orders. Bottom, com.mycompany.myapp.database, holds JdbcOrdersRepository. Uses arrows run from the controller to OrdersService and from OrdersServiceImpl to Orders. Implementation arrows run up from OrdersServiceImpl to OrdersService and from JdbcOrdersRepository, across the package boundary, to Orders.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "details-relaxed-layers-6",
+   "unit": "Part VI",
+   "unitTitle": "Details and case study",
+   "section": "Package by Component",
+   "concept": "details-relaxed-layers",
+   "rung": 6,
+   "role": "spot-error",
+   "kind": "tf",
+   "q": "True or false: In the diagram, the extra arrow from OrdersController to OrdersRepository creates a dependency cycle.",
+   "answer": false,
+   "explain": "All arrows still point downward, so the graph stays acyclic. The author's point is that a cycle check would not catch this shortcut, which bypasses the business logic layer.",
+   "rule": "An acyclic dependency graph can still hide undesirable dependencies.",
+   "media": [
+    {
+     "id": "fig/34-5",
+     "alt": "The three-package layered diagram (web, service, data) with OrdersController in web, OrdersService and OrdersServiceImpl in service, OrdersRepository and JdbcOrdersRepository in data. Besides the downward uses arrows through the service, a second dashed uses arrow runs from OrdersController around the right side straight down to the OrdersRepository interface, skipping the service package.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "details-package-by-component-6",
+   "unit": "Part VI",
+   "unitTitle": "Details and case study",
+   "section": "Package by Component",
+   "concept": "details-package-by-component",
+   "rung": 6,
+   "role": "discriminate",
+   "kind": "mcq",
+   "q": "Compared with the ports and adapters diagram, which type does this diagram move into the same package as the business logic?",
+   "options": [
+    "OrdersController, which now sits beside the component it calls",
+    "JdbcOrdersRepository, which now sits beside the logic that uses it",
+    "OrdersComponentImpl, which was previously outside the business package",
+    "The repository interface, which was previously outside the domain package"
+   ],
+   "answer": 1,
+   "explain": "In ports and adapters the JDBC class sits in a separate database package. Package by component bundles the logic and persistence into one orders package.",
+   "optionExplain": [
+    "The controller stays in the web package in both diagrams.",
+    "Correct: persistence code is bundled with the business logic behind one interface.",
+    "In ports and adapters the service implementation already sits in the domain package.",
+    "The Orders interface was already in the domain package, so it did not move."
+   ],
+   "rule": "Package by component bundles business logic and persistence behind one interface.",
+   "media": [
+    {
+     "id": "fig/34-6",
+     "alt": "Two packages. Top, com.mycompany.myapp.web, holds OrdersController. Bottom, com.mycompany.myapp.orders, holds interface OrdersComponent, OrdersComponentImpl, interface OrdersRepository and JdbcOrdersRepository. One uses arrow runs from the controller to OrdersComponent. Inside the orders package, OrdersComponentImpl implements OrdersComponent and uses OrdersRepository, which JdbcOrdersRepository implements.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
+  },
+  {
+   "id": "details-org-vs-encap-6",
+   "unit": "Part VI",
+   "unitTitle": "Details and case study",
+   "section": "Organization versus Encapsulation",
+   "concept": "details-org-vs-encap",
+   "rung": 6,
+   "role": "apply",
+   "kind": "mcq",
+   "q": "In the ports and adapters column, the Orders interface is not faded. Which type's dependency on it forces that?",
+   "options": [
+    "OrdersServiceImpl, which uses it from the domain package",
+    "OrdersController, which calls it from the web package",
+    "OrdersService, which sits beside it in the domain package",
+    "JdbcOrdersRepository, which implements it from the database package"
+   ],
+   "answer": 3,
+   "explain": "A type must be public when a class in another package depends on it. The JDBC class lives in the database package, outside the domain package.",
+   "optionExplain": [
+    "Same package, so package protected access would be enough.",
+    "The controller calls OrdersService, not Orders.",
+    "Same package, so no public access is required for it.",
+    "Correct: this is an inbound dependency from another package."
+   ],
+   "rule": "A type needs public access only when a class in another package depends on it.",
+   "media": [
+    {
+     "id": "fig/34-8",
+     "alt": "Four columns with package outlines; some types are faded grey. Layer: web, service and data packages; OrdersController, OrdersService and OrdersRepository dark, both implementation classes faded. Feature: one orders package; only OrdersController dark. Ports and adapters: web, domain, database packages; OrdersController, OrdersService and Orders dark, the rest faded. Component: web and orders packages; OrdersController and OrdersComponent dark, the rest faded.",
+     "role": "figure",
+     "type": "image/webp"
+    }
+   ]
   }
- ]
+ ],
+ "cover": {
+  "id": "book/cover",
+  "type": "image/webp",
+  "role": "cover",
+  "alt": "Book cover: Clean Architecture, A Craftsman's Guide to Software Structure and Design, by Robert C. Martin, over a dark blue spiral galaxy."
+ },
+ "mediaStore": "repo",
+ "sourceUse": "quotes+images"
 }
